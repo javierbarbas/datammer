@@ -1,0 +1,436 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "ad9e4933-05a9-4443-98f0-f1fb825ddfa9",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_2_Item_Supp_Country_Loc.wbk",
+    "description": "",
+    "name": "WB_CyD_2_Item_Supp_Country_Loc"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Item_Supp_Country_Loc_Particiones",
+      "sheetId": "2c84ba19-f387-4695-9c36-40174ab47951",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Item_Supp_Country_Loc_Particiones",
+        "sheetId": "cf60141b-bb43-4dab-ad84-63a0d59ff13e",
+        "workbook": {
+          "path": "/Produccion/OXXO/02 - Costos y Descuentos/Item Supp Country Loc Particiones/WB_CyD_Item_Supp_Country_Loc_Particiones.wbk",
+          "uuid": "02548ec5-37a7-401a-99e6-1f40537c3d09"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental",
+      "sheetId": "88444464-3b45-44ac-b00e-0e2aa8d516d5",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Costos/IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental.imp",
+        "uuid": "18340066-d81d-4e85-aed2-f91e5ad2ad2c"
+      },
+      "columnStyles": [
+        {
+          "columnId": "ITEM",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPPLIER",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORIGIN_COUNTRY_ID",
+          "name": "ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOC",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOC_TYPE",
+          "name": "LOC_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_LOC_IND",
+          "name": "PRIMARY_LOC_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "UNIT_COST",
+          "name": "UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ROUND_LVL",
+          "name": "ROUND_LVL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ROUND_TO_INNER_PCT",
+          "name": "ROUND_TO_INNER_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ROUND_TO_CASE_PCT",
+          "name": "ROUND_TO_CASE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ROUND_TO_LAYER_PCT",
+          "name": "ROUND_TO_LAYER_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ROUND_TO_PALLET_PCT",
+          "name": "ROUND_TO_PALLET_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPP_HIER_TYPE_1",
+          "name": "SUPP_HIER_TYPE_1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPP_HIER_LVL_1",
+          "name": "SUPP_HIER_LVL_1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPP_HIER_TYPE_2",
+          "name": "SUPP_HIER_TYPE_2",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPP_HIER_LVL_2",
+          "name": "SUPP_HIER_LVL_2",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPP_HIER_TYPE_3",
+          "name": "SUPP_HIER_TYPE_3",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPP_HIER_LVL_3",
+          "name": "SUPP_HIER_LVL_3",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PICKUP_LEAD_TIME",
+          "name": "PICKUP_LEAD_TIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_DATETIME",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_ID",
+          "name": "LAST_UPDATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dasJobExecutionStartTime",
+          "name": "dasJobExecutionStartTime",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Item_Supp_Country_Loc_Incremental",
+      "sheetId": "e12e38d6-af50-47fe-840f-132b83c6aab9",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "formulas": [
+        {
+          "columnName": "ITEM",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental!ITEM"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental!SUPPLIER"
+        },
+        {
+          "columnName": "ORIGIN_COUNTRY_ID",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental!ORIGIN_COUNTRY_ID"
+        },
+        {
+          "columnName": "LOC",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental!LOC"
+        },
+        {
+          "columnName": "UNIT_COST",
+          "columnId": "5",
+          "columnIndex": 4,
+          "formulaString": "\u003d#IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental!UNIT_COST"
+        },
+        {
+          "columnName": "LAST_UPDATE_DATETIME",
+          "columnId": "4",
+          "columnIndex": 5,
+          "formulaString": "\u003d#IJ_RMS_ITEM_SUPP_COUNTRY_LOC_Incremental!LAST_UPDATE_DATETIME"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Item_Supp_Country_Loc_Integrada",
+      "sheetId": "26a3a78e-0366-4ddc-98e0-de7fc9670c32",
+      "sheetType": "das.internal.UnionSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "unionSources": [
+          "Item_Supp_Country_Loc_Particiones",
+          "Item_Supp_Country_Loc_Incremental"
+        ]
+      },
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Item_Supp_Country_Loc",
+      "sheetId": "391d1194-5ea7-492d-976e-e4c439666fc2",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ITEM",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_Integrada!ITEM)"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_Integrada!SUPPLIER)"
+        },
+        {
+          "columnName": "ORIGIN_COUNTRY_ID",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_Integrada!ORIGIN_COUNTRY_ID)"
+        },
+        {
+          "columnName": "LOC",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_Integrada!LOC)"
+        },
+        {
+          "columnName": "LIST_UNIT_COST",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPCONCAT(#Item_Supp_Country_Loc_Integrada!UNIT_COST;#Item_Supp_Country_Loc_Integrada!LAST_UPDATE_DATETIME)"
+        },
+        {
+          "columnName": "UNIT_COST",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003dLISTELEMENT(#LIST_UNIT_COST;SIZE(#LIST_UNIT_COST) - 1)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "LIST_UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
