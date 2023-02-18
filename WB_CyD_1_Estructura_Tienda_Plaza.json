@@ -1,0 +1,804 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "abde58a1-5fd5-4494-8e21-fe5e844897ab",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_1_Estructura_Tienda_Plaza.wbk",
+    "description": "",
+    "name": "WB_CyD_1_Estructura_Tienda_Plaza"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "IJ_RMS_STORE_HIERARCHY",
+      "sheetId": "743c2726-c3a3-4416-94da-9fdba4386d64",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_STORE_HIERARCHY.imp",
+        "uuid": "64f119e3-e28e-418c-b094-dda191bb87dc"
+      },
+      "columnStyles": [
+        {
+          "columnId": "COMPANY",
+          "name": "COMPANY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHAIN",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "AREA",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REGION",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DISTRICT",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE",
+          "name": "STORE",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_XXFC_STORE",
+      "sheetId": "0c755dde-3f05-471f-ab11-b1b0a5890bb2",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "STORE_CLOSE_DATE",
+          "filterExpression": "EMPTY",
+          "value": "",
+          "type": "CONSTANT"
+        }
+      ],
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_XXFC_STORE.imp",
+        "uuid": "56edac53-ade9-4565-b883-c147ad365fa9"
+      },
+      "columnStyles": [
+        {
+          "columnId": "STORE",
+          "name": "STORE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "AREA",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CR_PLAZA",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CR_TIENDA",
+          "name": "CR_TIENDA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_NAME",
+          "name": "STORE_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_NAME10",
+          "name": "STORE_NAME10",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_NAME3",
+          "name": "STORE_NAME3",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_ADD1",
+          "name": "STORE_ADD1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_ADD2",
+          "name": "STORE_ADD2",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_CITY",
+          "name": "STORE_CITY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COUNTY",
+          "name": "COUNTY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATE",
+          "name": "STATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COUNTRY_ID",
+          "name": "COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_PCODE",
+          "name": "STORE_PCODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_CLASS",
+          "name": "STORE_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_MGR_NAME",
+          "name": "STORE_MGR_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_OPEN_DATE",
+          "name": "STORE_OPEN_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_CLOSE_DATE",
+          "name": "STORE_CLOSE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ACQUIRED_DATE",
+          "name": "ACQUIRED_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REMODEL_DATE",
+          "name": "REMODEL_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "FAX_NUMBER",
+          "name": "FAX_NUMBER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PHONE_NUMBER",
+          "name": "PHONE_NUMBER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "EMAIL",
+          "name": "EMAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TOTAL_SQUARE_FT",
+          "name": "TOTAL_SQUARE_FT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SELLING_SQUARE_FT",
+          "name": "SELLING_SQUARE_FT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LINEAR_DISTANCE",
+          "name": "LINEAR_DISTANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "VAT_REGION",
+          "name": "VAT_REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "VAT_INCLUDE_IND",
+          "name": "VAT_INCLUDE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STOCKHOLDING_IND",
+          "name": "STOCKHOLDING_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHANNEL_ID",
+          "name": "CHANNEL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_FORMAT",
+          "name": "STORE_FORMAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MALL_NAME",
+          "name": "MALL_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DISTRICT",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PROMO_ZONE",
+          "name": "PROMO_ZONE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TRANSFER_ZONE",
+          "name": "TRANSFER_ZONE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEFAULT_WH",
+          "name": "DEFAULT_WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STOP_ORDER_DAYS",
+          "name": "STOP_ORDER_DAYS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "START_ORDER_DAYS",
+          "name": "START_ORDER_DAYS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENCY_CODE",
+          "name": "CURRENCY_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ADDR_CHG",
+          "name": "ADDR_CHG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LANG",
+          "name": "LANG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TRAN_NO_GENERATED",
+          "name": "TRAN_NO_GENERATED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "INTEGRATED_POS_IND",
+          "name": "INTEGRATED_POS_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORIG_CURRENCY_CODE",
+          "name": "ORIG_CURRENCY_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DUNS_NUMBER",
+          "name": "DUNS_NUMBER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DUNS_LOC",
+          "name": "DUNS_LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SISTER_STORE",
+          "name": "SISTER_STORE",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_CHAIN",
+      "sheetId": "e02f5302-020f-47f6-b983-94f0cd46d99d",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_CHAIN.imp",
+        "uuid": "7f45be08-13bd-42fc-b065-6209046cc0ba"
+      },
+      "columnStyles": [
+        {
+          "columnId": "CHAIN",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHAIN_NAME",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MGR_NAME",
+          "name": "MGR_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENCY_CODE",
+          "name": "CURRENCY_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_AREA",
+      "sheetId": "56cbcdc4-0293-4951-8ea0-caa6e27999b4",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_AREA.imp",
+        "uuid": "d766d50d-ea8e-41d5-bae2-b9da8eb2f331"
+      },
+      "columnStyles": [
+        {
+          "columnId": "AREA",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "AREA_NAME",
+          "name": "AREA_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MGR_NAME",
+          "name": "MGR_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHAIN",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENCY_CODE",
+          "name": "CURRENCY_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "XXFC_STORE_AREA",
+      "sheetId": "7b4dd4c3-fcc3-44b4-98d2-cccf8fb48fcd",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_XXFC_STORE",
+            "sheet2": "IJ_RMS_AREA",
+            "joinColumns1": [
+              "AREA"
+            ],
+            "joinColumns2": [
+              "AREA"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "IJ_RMS_XXFC_STORE": [
+            "STORE",
+            "AREA",
+            "CR_PLAZA",
+            "CR_TIENDA"
+          ],
+          "IJ_RMS_AREA": []
+        },
+        "displayJoinColumnsUpfront": true
+      },
+      "columnStyles": [
+        {
+          "columnId": "41dd6c529ff97d0400b1035815ca9d1c",
+          "name": "IJ_RMS_XXFC_STORE.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4ef81a1740cfcaaed1db9bb268ef1ee1",
+          "name": "IJ_RMS_XXFC_STORE.STORE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a1f1faf221444b0c4e620e7b3191897a",
+          "name": "IJ_RMS_XXFC_STORE.CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "49179713f272412bfe47a035c68b9a98",
+          "name": "IJ_RMS_XXFC_STORE.CR_TIENDA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "STORE_HIERARCHY_AREA_CHAIN",
+      "sheetId": "362afb7e-7a3b-4a40-9f9f-ff603227bb4b",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "MULTI_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_STORE_HIERARCHY",
+            "sheet2": "IJ_RMS_AREA",
+            "joinColumns1": [
+              "AREA"
+            ],
+            "joinColumns2": [
+              "AREA"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_STORE_HIERARCHY",
+            "sheet2": "IJ_RMS_CHAIN",
+            "joinColumns1": [
+              "CHAIN"
+            ],
+            "joinColumns2": [
+              "CHAIN"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "IJ_RMS_AREA": [
+            "AREA_NAME"
+          ],
+          "IJ_RMS_CHAIN": [
+            "CHAIN_NAME"
+          ],
+          "IJ_RMS_STORE_HIERARCHY": [
+            "AREA",
+            "CHAIN",
+            "COMPANY",
+            "DISTRICT",
+            "REGION",
+            "STORE"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "ba12fec1f261afd858186226d730106b",
+          "name": "IJ_RMS_STORE_HIERARCHY.COMPANY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "540d57d80ebefaebdc7fe17ad332cfb4",
+          "name": "IJ_RMS_STORE_HIERARCHY.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "eac74b33edf0569ec3d76bdae33471b0",
+          "name": "IJ_RMS_STORE_HIERARCHY.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3d9b6ede0902e77ac92275ab5f35d9d9",
+          "name": "IJ_RMS_STORE_HIERARCHY.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fe62d05a9601aa4f3960d4cc86283479",
+          "name": "IJ_RMS_STORE_HIERARCHY.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3c04849a19d0cfdf2b4a1cf0c8ef6527",
+          "name": "IJ_RMS_STORE_HIERARCHY.STORE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7bfb20e2c433d396fafc4b507e955b22",
+          "name": "IJ_RMS_AREA.AREA_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "def4591e8b3a9af92913dd8e43cb58f4",
+          "name": "IJ_RMS_CHAIN.CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Estructura_Tienda",
+      "sheetId": "159c2131-91c3-4ce1-9a8f-41879c06a8b6",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "STORE_HIERARCHY_AREA_CHAIN",
+            "sheet2": "XXFC_STORE_AREA",
+            "joinColumns1": [
+              "IJ_RMS_STORE_HIERARCHY.AREA",
+              "IJ_RMS_STORE_HIERARCHY.STORE"
+            ],
+            "joinColumns2": [
+              "IJ_RMS_XXFC_STORE.AREA",
+              "IJ_RMS_XXFC_STORE.STORE"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "STORE_HIERARCHY_AREA_CHAIN": [
+            "IJ_RMS_STORE_HIERARCHY.COMPANY",
+            "IJ_RMS_STORE_HIERARCHY.CHAIN",
+            "IJ_RMS_STORE_HIERARCHY.AREA",
+            "IJ_RMS_STORE_HIERARCHY.REGION",
+            "IJ_RMS_STORE_HIERARCHY.DISTRICT",
+            "IJ_RMS_STORE_HIERARCHY.STORE",
+            "IJ_RMS_AREA.AREA_NAME",
+            "IJ_RMS_CHAIN.CHAIN_NAME"
+          ],
+          "XXFC_STORE_AREA": [
+            "IJ_RMS_XXFC_STORE.CR_PLAZA",
+            "IJ_RMS_XXFC_STORE.CR_TIENDA"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "c190e150965ad816af1656b6aa98aef1",
+          "name": "COMPANY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3c7abfdd1e29a944a067e71bc88b518d",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5bc11aa60bce958862e28622a8024dbe",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ca63fba7625b03315c16b59f272afe2c",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "67953910afa8ea3a2f4d897c0adeb616",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "88951846a49fd492360a031423ff419c",
+          "name": "STORE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "eb146d912f335d3a51b89a21154aaeac",
+          "name": "AREA_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3548847a3b8cdd13397c4d220f0afaf2",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "854f772fa3e953927e4d80f457be784e",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "901e7eb224ea77cc61d5e5cb6eec14fa",
+          "name": "CR_TIENDA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Estructura_Plaza",
+      "sheetId": "8075f3d4-e03a-4510-a823-8383d4eea632",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "COMPANY",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#Estructura_Tienda!COMPANY)"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "8",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#Estructura_Tienda!CHAIN)"
+        },
+        {
+          "columnName": "CHAIN_NAME",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPBY(#Estructura_Tienda!CHAIN_NAME)"
+        },
+        {
+          "columnName": "CR_PLAZA",
+          "columnId": "4",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPBY(#Estructura_Tienda!CR_PLAZA)"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "5",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPBY(#Estructura_Tienda!AREA)"
+        },
+        {
+          "columnName": "AREA_NAME",
+          "columnId": "6",
+          "columnIndex": 5,
+          "formulaString": "\u003dGROUPBY(#Estructura_Tienda!AREA_NAME)"
+        },
+        {
+          "columnName": "TIENDAS",
+          "columnId": "7",
+          "columnIndex": 6,
+          "formulaString": "\u003dGROUPCOUNT()"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "COMPANY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "AREA_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
