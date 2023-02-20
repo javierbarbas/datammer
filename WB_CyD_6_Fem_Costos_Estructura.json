@@ -1,0 +1,484 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "7ae07691-936e-48b8-9989-b69f836ee1b0",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_6_Fem_Costos_Estructura.wbk",
+    "description": "",
+    "name": "WB_CyD_6_Fem_Costos_Estructura"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Costos_Plaza",
+      "sheetId": "13ab08df-e995-402b-bc10-b2a323d8e295",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Costos_Plaza",
+        "sheetId": "0c810830-f164-4e42-b17c-aace79fa8dc6",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_4_Costos_Plaza.wbk",
+          "uuid": "7c650997-b143-4441-9848-9d822f48011a"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "7",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Costos_CEDIS_2",
+      "sheetId": "cd0f2813-9b11-417c-896e-757d8f17cd1e",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Costos_CEDIS_2",
+        "sheetId": "0c810830-f164-4e42-b17c-aace79fa8dc6",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_3_Costos_CEDIS_2.wbk",
+          "uuid": "654166e7-d193-4ae2-8191-b020fae812f2"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "7",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Total_Costos_2",
+      "sheetId": "0eb4499d-bf15-4b87-be9a-b9d81c0077dc",
+      "sheetType": "das.internal.UnionSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "unionSources": [
+          "Costos_Plaza",
+          "Costos_CEDIS_2"
+        ]
+      },
+      "columnStyles": [
+        {
+          "columnId": "7",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Estructura_Item_R",
+      "sheetId": "a4e8b93a-543e-419f-b2f0-150dd712cc84",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Estructura_Item_R",
+        "sheetId": "7a8458d3-2db8-41b9-98d0-595ae1b85716",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_5_Estructura_Item_R.wbk",
+          "uuid": "7df9fb1d-264d-4ec6-9859-5c8398dc60dd"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "adc3841a3ac864cc3db1a5f3bda59688",
+          "name": "ARTICULO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8d927fe21ffdff58d1aba4452e5cccd9",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5a11c4ffcf9817d8f504451be34f7b6e",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a3fa6ea35fdc3156544d294adde11ceb",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "66536c68ad61a75adaae774962d3efff",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f2ca1e4b6bb3e71a2da867bc45dba36b",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "407d579b7cddf3fdf780b0f2a5eb757e",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "937eb7f431b6d8b04d2d7f8d5718ccaf",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "989d0efc5900e1b2a5cad7aa4cb7a1ae",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f8486c67c63da2d42f137ce1b420e354",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "47cae4b3240b1dcfad398b60b4472a9a",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18f76dda05c2da4b8e3e04be60ceea4f",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Fem_Costos_Estructura",
+      "sheetId": "d1a13dec-7692-438f-8fb1-6fbb6722bd9b",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "Total_Costos_2",
+            "sheet2": "Estructura_Item_R",
+            "joinColumns1": [
+              "ITEM"
+            ],
+            "joinColumns2": [
+              "ARTICULO"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "Total_Costos_2": [
+            "ALCANCE",
+            "PLAZA",
+            "WH_AREA",
+            "WH_NAME",
+            "ITEM",
+            "FA",
+            "COSTO",
+            "CONTEO",
+            "PHYSICAL_WH",
+            "CR_PLAZA",
+            "PROVEEDOR",
+            "TOTAL_TIENDAS"
+          ],
+          "Estructura_Item_R": [
+            "DESCRIPCION",
+            "SUBCAT",
+            "SUBCATEGORIA",
+            "CAT",
+            "CATEGORIA",
+            "SUPER",
+            "SUPERGRUPO",
+            "SEG",
+            "SEGMENTO",
+            "SUBSEG",
+            "SUBSEGMENTO"
+          ]
+        },
+        "displayJoinColumnsUpfront": true
+      },
+      "columnStyles": [
+        {
+          "columnId": "d0d221788eec4e218bd490563026698f",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "426872ad136ed4109fa2037827109885",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "54454b7a46906feeaac58cd9921e5bd7",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "47f9b04970fd5830f9aca8a69550b059",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25b8e4806e7c042f9ae266c64f6404eb",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "59bab9a02f1f90b87bea9d9efaa5b3de",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "644dc49e33ff4a09fb80f9daa531e14a",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2f5d86eebd6ba6cba46c96f06accbc42",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bed31cccf7ed9f7bee2f65ad99d0a1d8",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6a3123b9f8a404a49180707147f0b2a4",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1a72cff773dbd516824016502eefe636",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e417f9ab7cc0ad0f98963d073804d71b",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "162fc35c6c8dadd4a286ffd5d04a9138",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "632dd21018a6ab37836730ec08c25634",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e1dab2080a19ea48cc1dbd76e6a8f2a3",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "86b1ef9ba92f0262502363a03582e65b",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6a1da38cc61a97ffd953bc0d3f1328b4",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dd38401bf965c7b86df76fb7cda46d15",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f9ebb8dcb3b7bc7ddede8d241d390b96",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "09d9ae9867818d3d52c6ad2b4acd4edd",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
