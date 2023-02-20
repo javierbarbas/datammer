@@ -1,0 +1,4957 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "8ae79c02-505a-4f1c-a783-e680fccb9183",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_7_Todo_Deals_Activos.wbk",
+    "description": "",
+    "name": "WB_CyD_7_Todo_Deals_Activos"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "IJ_RMS_FEM_DEALS_NIVEL_ITEM",
+      "sheetId": "f9c45d5f-f3c0-4885-92e2-84102f34b4f4",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Descuentos/IJ_RMS_FEM_DEALS_NIVEL_ITEM.imp",
+        "uuid": "54bf1272-80a7-49c1-a371-86b138707614"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DEAL_ID",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ACTIVE_DATE",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TYPE",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATUS",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEAL_DETAIL_ID",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPPLIER",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUP_NAME",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "FEM_RFC_CODE",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEAL_COMP_TYPE",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BILLING_TYPE",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_DESC",
+          "name": "ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "VALUE",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PORCENTAJE",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIVISION",
+          "name": "DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIV_NAME",
+          "name": "DIV_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "GROUP_NO",
+          "name": "GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "GROUP_NAME",
+          "name": "GROUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEPT",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEPT_NAME",
+          "name": "DEPT_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS_NAME",
+          "name": "CLASS_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUBCLASS",
+          "name": "SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUB_NAME",
+          "name": "SUB_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORG_LEVEL",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHAIN",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "AREA",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REGION",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DISTRICT",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOCATION",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "EXCEPCION",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_ID",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Estructura_Plaza",
+      "sheetId": "ce5e2e32-f6a4-4f48-838a-27bfc36900c2",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Estructura_Plaza",
+        "sheetId": "8075f3d4-e03a-4510-a823-8383d4eea632",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_1_Estructura_Tienda_Plaza.wbk",
+          "uuid": "abde58a1-5fd5-4494-8e21-fe5e844897ab"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "COMPANY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "AREA_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_DEAL_HEAD",
+      "sheetId": "814bf6bb-c391-41ea-a3cf-2b0b2171a7b2",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Descuentos/IJ_RMS_DEAL_HEAD.imp",
+        "uuid": "3637490e-2b88-4caa-a002-e9be0b0f2c0a"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DEAL_ID",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PARTNER_TYPE",
+          "name": "PARTNER_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PARTNER_ID",
+          "name": "PARTNER_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUPPLIER",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TYPE",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATUS",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENCY_CODE",
+          "name": "CURRENCY_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ACTIVE_DATE",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLOSE_DATE",
+          "name": "CLOSE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLOSE_ID",
+          "name": "CLOSE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_ID",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "APPROVAL_DATE",
+          "name": "APPROVAL_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "APPROVAL_ID",
+          "name": "APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REJECT_DATE",
+          "name": "REJECT_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REJECT_ID",
+          "name": "REJECT_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "EXT_REF_NO",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORDER_NO",
+          "name": "ORDER_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "RECALC_APPROVED_ORDERS",
+          "name": "RECALC_APPROVED_ORDERS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COMMENTS",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_ID",
+          "name": "LAST_UPDATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_DATETIME",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_DEAL_DETAIL",
+      "sheetId": "84798141-4c4c-4fa2-85e6-178334322502",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Descuentos/IJ_RMS_DEAL_DETAIL.imp",
+        "uuid": "6ec48fe0-f478-4d0b-a132-94ceb286a5ed"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DEAL_ID",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEAL_DETAIL_ID",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEAL_COMP_TYPE",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "APPLICATION_ORDER",
+          "name": "APPLICATION_ORDER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BILLING_TYPE",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BILL_BACK_PERIOD",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COLLECT_START_DATE",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COLLECT_END_DATE",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEAL_APPL_TIMING",
+          "name": "DEAL_APPL_TIMING",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COST_APPL_IND",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRICE_COST_APPL_IND",
+          "name": "PRICE_COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEAL_CLASS",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "THRESHOLD_LIMIT_TYPE",
+          "name": "THRESHOLD_LIMIT_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "THRESHOLD_LIMIT_UOM",
+          "name": "THRESHOLD_LIMIT_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "THRESHOLD_VALUE_TYPE",
+          "name": "THRESHOLD_VALUE_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_BUY_ITEM",
+          "name": "QTY_THRESH_BUY_ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_GET_TYPE",
+          "name": "QTY_THRESH_GET_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_GET_VALUE",
+          "name": "QTY_THRESH_GET_VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_BUY_QTY",
+          "name": "QTY_THRESH_BUY_QTY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_RECUR_IND",
+          "name": "QTY_THRESH_RECUR_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_BUY_TARGET",
+          "name": "QTY_THRESH_BUY_TARGET",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_BUY_AVG_LOC",
+          "name": "QTY_THRESH_BUY_AVG_LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_GET_ITEM",
+          "name": "QTY_THRESH_GET_ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_THRESH_GET_QTY",
+          "name": "QTY_THRESH_GET_QTY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "48cc9731667c7d882b8f66bd379c5f02",
+          "name": "QTY_THRESH_FREE_ITEM_UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TRAN_DISCOUNT_IND",
+          "name": "TRAN_DISCOUNT_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REBATE_IND",
+          "name": "REBATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REBATE_ACTIVE_DATE",
+          "name": "REBATE_ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REBATE_CALC_TYPE",
+          "name": "REBATE_CALC_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "GROWTH_REBATE_IND",
+          "name": "GROWTH_REBATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "267962888e1f20fed42402c48db889b3",
+          "name": "HISTORICAL_COMP_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "HISTORICAL_COMP_END_DATE",
+          "name": "HISTORICAL_COMP_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENT_COMP_START_DATE",
+          "name": "CURRENT_COMP_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENT_COMP_END_DATE",
+          "name": "CURRENT_COMP_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REBATE_PURCH_SALES_IND",
+          "name": "REBATE_PURCH_SALES_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COMMENTS",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_ID",
+          "name": "LAST_UPDATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_DATETIME",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "HEAD_DETAIL",
+      "sheetId": "5989328f-5040-4a9a-aee9-352681e4b0e7",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_DEAL_HEAD",
+            "sheet2": "IJ_RMS_DEAL_DETAIL",
+            "joinColumns1": [
+              "DEAL_ID"
+            ],
+            "joinColumns2": [
+              "DEAL_ID"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "IJ_RMS_DEAL_HEAD": [
+            "DEAL_ID"
+          ],
+          "IJ_RMS_DEAL_DETAIL": [
+            "DEAL_DETAIL_ID",
+            "DEAL_COMP_TYPE"
+          ]
+        },
+        "displayJoinColumnsUpfront": true
+      },
+      "columnStyles": [
+        {
+          "columnId": "b496e8f41439eafaa0d8e1eb76944158",
+          "name": "IJ_RMS_DEAL_HEAD.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b63a86be37beed3a7b84bbf666f3fb5f",
+          "name": "IJ_RMS_DEAL_DETAIL.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9ab61674c30ec77ffbf529fbc3ba8bd8",
+          "name": "IJ_RMS_DEAL_DETAIL.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_ORG_LEVEL_2",
+      "sheetId": "854e8989-486c-4ba3-9612-5dad3a1f28c3",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "ORG_LEVEL",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "2",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "STATUS",
+          "columnId": "3",
+          "columnIndex": 0,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!STATUS"
+        },
+        {
+          "columnName": "DEAL_ID",
+          "columnId": "0",
+          "columnIndex": 1,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_ID"
+        },
+        {
+          "columnName": "ACTIVE_DATE",
+          "columnId": "1",
+          "columnIndex": 2,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ACTIVE_DATE"
+        },
+        {
+          "columnName": "TYPE",
+          "columnId": "2",
+          "columnIndex": 3,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!TYPE"
+        },
+        {
+          "columnName": "DEAL_DETAIL_ID",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_DETAIL_ID"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUPPLIER"
+        },
+        {
+          "columnName": "SUP_NAME",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUP_NAME"
+        },
+        {
+          "columnName": "FEM_RFC_CODE",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!FEM_RFC_CODE"
+        },
+        {
+          "columnName": "DEAL_COMP_TYPE",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_COMP_TYPE"
+        },
+        {
+          "columnName": "BILLING_TYPE",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!BILLING_TYPE"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ITEM"
+        },
+        {
+          "columnName": "ITEM_DESC",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ITEM_DESC"
+        },
+        {
+          "columnName": "VALUE",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!VALUE"
+        },
+        {
+          "columnName": "PORCENTAJE",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!PORCENTAJE"
+        },
+        {
+          "columnName": "DIVISION",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DIVISION"
+        },
+        {
+          "columnName": "DIV_NAME",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DIV_NAME"
+        },
+        {
+          "columnName": "GROUP_NO",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!GROUP_NO"
+        },
+        {
+          "columnName": "GROUP_NAME",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!GROUP_NAME"
+        },
+        {
+          "columnName": "DEPT",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEPT"
+        },
+        {
+          "columnName": "DEPT_NAME",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEPT_NAME"
+        },
+        {
+          "columnName": "CLASS",
+          "columnId": "20",
+          "columnIndex": 20,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CLASS"
+        },
+        {
+          "columnName": "CLASS_NAME",
+          "columnId": "21",
+          "columnIndex": 21,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CLASS_NAME"
+        },
+        {
+          "columnName": "SUBCLASS",
+          "columnId": "22",
+          "columnIndex": 22,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUBCLASS"
+        },
+        {
+          "columnName": "SUB_NAME",
+          "columnId": "23",
+          "columnIndex": 23,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUB_NAME"
+        },
+        {
+          "columnName": "ORG_LEVEL",
+          "columnId": "24",
+          "columnIndex": 24,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ORG_LEVEL"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "25",
+          "columnIndex": 25,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CHAIN"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "26",
+          "columnIndex": 26,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!AREA"
+        },
+        {
+          "columnName": "REGION",
+          "columnId": "27",
+          "columnIndex": 27,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!REGION"
+        },
+        {
+          "columnName": "DISTRICT",
+          "columnId": "28",
+          "columnIndex": 28,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DISTRICT"
+        },
+        {
+          "columnName": "LOCATION",
+          "columnId": "29",
+          "columnIndex": 29,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!LOCATION"
+        },
+        {
+          "columnName": "EXCEPCION",
+          "columnId": "30",
+          "columnIndex": 30,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!EXCEPCION"
+        },
+        {
+          "columnName": "CREATE_ID",
+          "columnId": "31",
+          "columnIndex": 31,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CREATE_ID"
+        },
+        {
+          "columnName": "CREATE_DATETIME",
+          "columnId": "32",
+          "columnIndex": 32,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CREATE_DATETIME"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "3",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "DIV_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "GROUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "DEPT_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CLASS_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "SUB_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "32",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2",
+      "sheetId": "a2d8a02a-8bf1-4bf2-85a4-8d3e74690041",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "MULTI_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_2",
+            "sheet2": "IJ_RMS_DEAL_HEAD",
+            "joinColumns1": [
+              "DEAL_ID"
+            ],
+            "joinColumns2": [
+              "DEAL_ID"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_2",
+            "sheet2": "IJ_RMS_DEAL_DETAIL",
+            "joinColumns1": [
+              "DEAL_ID",
+              "DEAL_DETAIL_ID",
+              "DEAL_COMP_TYPE"
+            ],
+            "joinColumns2": [
+              "DEAL_ID",
+              "DEAL_DETAIL_ID",
+              "DEAL_COMP_TYPE"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_2",
+            "sheet2": "Estructura_Plaza",
+            "joinColumns1": [
+              "CHAIN",
+              "AREA"
+            ],
+            "joinColumns2": [
+              "CHAIN",
+              "AREA"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "FEM_DEALS_ORG_LEVEL_2": [
+            "ACTIVE_DATE",
+            "BILLING_TYPE",
+            "CHAIN",
+            "CREATE_DATETIME",
+            "CREATE_ID",
+            "DEAL_COMP_TYPE",
+            "DEAL_DETAIL_ID",
+            "DEAL_ID",
+            "DISTRICT",
+            "EXCEPCION",
+            "FEM_RFC_CODE",
+            "ITEM",
+            "LOCATION",
+            "ORG_LEVEL",
+            "PORCENTAJE",
+            "REGION",
+            "STATUS",
+            "SUPPLIER",
+            "SUP_NAME",
+            "TYPE",
+            "VALUE"
+          ],
+          "IJ_RMS_DEAL_DETAIL": [
+            "BILL_BACK_PERIOD",
+            "COLLECT_END_DATE",
+            "COLLECT_START_DATE",
+            "COST_APPL_IND",
+            "DEAL_CLASS"
+          ],
+          "Estructura_Plaza": [
+            "AREA",
+            "CHAIN_NAME",
+            "CR_PLAZA"
+          ],
+          "IJ_RMS_DEAL_HEAD": [
+            "APPROVAL_ID",
+            "COMMENTS",
+            "EXT_REF_NO"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "20d93c39ee37a30760edc20744cf5296",
+          "name": "FEM_DEALS_ORG_LEVEL_2.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3578b1ffd1eabc36bd2ab08a8c6c7057",
+          "name": "FEM_DEALS_ORG_LEVEL_2.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "60a7fa742e0184e9365dcd9d49cbcf02",
+          "name": "FEM_DEALS_ORG_LEVEL_2.ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "789cf3fa660c48b9413713f3cce8c069",
+          "name": "FEM_DEALS_ORG_LEVEL_2.TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4ac8a6be94cb2d6c7fc06145ec99c293",
+          "name": "FEM_DEALS_ORG_LEVEL_2.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b2fca925a536247365ae44ae6738e716",
+          "name": "FEM_DEALS_ORG_LEVEL_2.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9ed8c55c4a89099b10fbb2625fb448be",
+          "name": "FEM_DEALS_ORG_LEVEL_2.SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7575dd63d179f14b35be8b9793694e7b",
+          "name": "FEM_DEALS_ORG_LEVEL_2.FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c89aceb11763dbf58a7b5a60495c2fc6",
+          "name": "FEM_DEALS_ORG_LEVEL_2.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ae1b0de0881f77498e2fd8d6920baaac",
+          "name": "FEM_DEALS_ORG_LEVEL_2.BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3a2bb6692c3e2621daeb8544dc2898fb",
+          "name": "FEM_DEALS_ORG_LEVEL_2.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "df446faf6b154c865983df282fe84ec7",
+          "name": "FEM_DEALS_ORG_LEVEL_2.VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "770780676b8e783b2ff8a7777fb9ce25",
+          "name": "FEM_DEALS_ORG_LEVEL_2.PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9ce7dce80418c594518ebb40273f5d15",
+          "name": "FEM_DEALS_ORG_LEVEL_2.ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "07f2ce57884c305f3fc0c3814f364fb8",
+          "name": "FEM_DEALS_ORG_LEVEL_2.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bddb43a77de42d77da5b266ad5989df8",
+          "name": "FEM_DEALS_ORG_LEVEL_2.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "540c53c4f91ef3febeea4a1a85c0d20f",
+          "name": "FEM_DEALS_ORG_LEVEL_2.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ce014bfe24515db43328cdde29568a52",
+          "name": "FEM_DEALS_ORG_LEVEL_2.LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c7b98772833667210bcc0625bbf84785",
+          "name": "FEM_DEALS_ORG_LEVEL_2.EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "04d68257b6106abe93f051c4f0ae0478",
+          "name": "FEM_DEALS_ORG_LEVEL_2.CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "91c1b6f17e0de9c2191a52eb814058a5",
+          "name": "FEM_DEALS_ORG_LEVEL_2.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8cafd519bedb2b4f7b7164992058bc44",
+          "name": "IJ_RMS_DEAL_HEAD.APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4fcefad2bb51bb52f0fc4680081cd060",
+          "name": "IJ_RMS_DEAL_HEAD.EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "eae257c7ae28b991befd8b0646d136a2",
+          "name": "IJ_RMS_DEAL_HEAD.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "faf4c5a736cd3267630390112fee193a",
+          "name": "IJ_RMS_DEAL_DETAIL.BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "723735b490ebc91e3e4ed21830a8e572",
+          "name": "IJ_RMS_DEAL_DETAIL.COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "52acb1b5a39d1411802741eab12015b5",
+          "name": "IJ_RMS_DEAL_DETAIL.COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "394ac71c1e365aeba3cef9a58d8568ee",
+          "name": "IJ_RMS_DEAL_DETAIL.COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b4618a69dc98c7fce9c1fe8f6a27cd6a",
+          "name": "IJ_RMS_DEAL_DETAIL.DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4766b08739137db6645254ad094daa69",
+          "name": "Estructura_Plaza.CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2e1d003088b036c41ac83445fe4e9fcb",
+          "name": "Estructura_Plaza.CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f1a9c6c662e71d9f4d92017f94b350ca",
+          "name": "Estructura_Plaza.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL",
+      "sheetId": "87ed3f2a-0c26-4dba-9606-ca6fc5eb6817",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2",
+            "sheet2": "HEAD_DETAIL",
+            "joinColumns1": [
+              "FEM_DEALS_ORG_LEVEL_2.DEAL_ID",
+              "FEM_DEALS_ORG_LEVEL_2.DEAL_DETAIL_ID",
+              "FEM_DEALS_ORG_LEVEL_2.DEAL_COMP_TYPE"
+            ],
+            "joinColumns2": [
+              "IJ_RMS_DEAL_HEAD.DEAL_ID",
+              "IJ_RMS_DEAL_DETAIL.DEAL_DETAIL_ID",
+              "IJ_RMS_DEAL_DETAIL.DEAL_COMP_TYPE"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2": [
+            "FEM_DEALS_ORG_LEVEL_2.DEAL_ID",
+            "FEM_DEALS_ORG_LEVEL_2.ACTIVE_DATE",
+            "FEM_DEALS_ORG_LEVEL_2.TYPE",
+            "FEM_DEALS_ORG_LEVEL_2.STATUS",
+            "FEM_DEALS_ORG_LEVEL_2.DEAL_DETAIL_ID",
+            "FEM_DEALS_ORG_LEVEL_2.SUPPLIER",
+            "FEM_DEALS_ORG_LEVEL_2.SUP_NAME",
+            "FEM_DEALS_ORG_LEVEL_2.FEM_RFC_CODE",
+            "FEM_DEALS_ORG_LEVEL_2.DEAL_COMP_TYPE",
+            "FEM_DEALS_ORG_LEVEL_2.BILLING_TYPE",
+            "FEM_DEALS_ORG_LEVEL_2.ITEM",
+            "FEM_DEALS_ORG_LEVEL_2.VALUE",
+            "FEM_DEALS_ORG_LEVEL_2.PORCENTAJE",
+            "FEM_DEALS_ORG_LEVEL_2.ORG_LEVEL",
+            "FEM_DEALS_ORG_LEVEL_2.CHAIN",
+            "FEM_DEALS_ORG_LEVEL_2.REGION",
+            "FEM_DEALS_ORG_LEVEL_2.DISTRICT",
+            "FEM_DEALS_ORG_LEVEL_2.LOCATION",
+            "FEM_DEALS_ORG_LEVEL_2.EXCEPCION",
+            "FEM_DEALS_ORG_LEVEL_2.CREATE_ID",
+            "FEM_DEALS_ORG_LEVEL_2.CREATE_DATETIME",
+            "IJ_RMS_DEAL_HEAD.APPROVAL_ID",
+            "IJ_RMS_DEAL_HEAD.EXT_REF_NO",
+            "IJ_RMS_DEAL_HEAD.COMMENTS",
+            "IJ_RMS_DEAL_DETAIL.BILL_BACK_PERIOD",
+            "IJ_RMS_DEAL_DETAIL.COLLECT_START_DATE",
+            "IJ_RMS_DEAL_DETAIL.COLLECT_END_DATE",
+            "IJ_RMS_DEAL_DETAIL.COST_APPL_IND",
+            "IJ_RMS_DEAL_DETAIL.DEAL_CLASS",
+            "Estructura_Plaza.CHAIN_NAME",
+            "Estructura_Plaza.CR_PLAZA",
+            "Estructura_Plaza.AREA"
+          ],
+          "HEAD_DETAIL": []
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "6a6ec7b1f06ca0baf6bf5ba7385b6e48",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3273101b0118715857364dafd2fe086d",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24cd8bb2a27db7a217e2e1776850b792",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3a26505f375f5f18a299502c83994561",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b080e7573b7e32464c2bfe4f51013a1d",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2a0a24a9cd3203462052662e643285b7",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b5fa141a083a3b5f3b4988325361ea89",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f9dda767692fb4fed22aff74be2d5547",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "57ecaf5898dbece3a69e3589d9e3e4d1",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "840cfec7bfe33d1a3e34bdd86de0ea21",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fce4f4de7eaa92c9750ddf67c81ca5ba",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7f23f68eea74d1a3114acf9a11404da2",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "78712223868ca10948313b588f366e29",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4a3734ed3272052f570c676c4dfe7433",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0c348b40877a775e52d20d15c6d3e064",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "99e461ca8e517d6dad5193ef0f6f2459",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2e4f4d7cba3bbbab46f880f3ff3e007e",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "203335a9a7239cddf9646bd949174bcb",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1f86cfb8abae2ef3626e3cd4f2507608",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16361f3d234237aef32413fd353ed770",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ad5a07a0c9e2e120d9dfe0029b3d782f",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10d00d7013c7b15ebb50972bb14168a4",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0fac10f277dbb02d8fefbcf8fa2f463e",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fe8d2420085b903a24f264151f6bbe9c",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "42a6f8794c668115df10459b848efb9b",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8c78f83270bb60a26dc4d84f4764711c",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "556ae42e839bae0990bf8b1caab92f32",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2cc384993c91848c35ff6e552a9f25d6",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "89c738b1cf03bb3ec79a1bb5c134c16e",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1716613da64449f805c4f855fb537ffc",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7f800cb66674d63be254811c3709ac87",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9638bb34ed64f42285baeb33600cd34f",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Deals_CR_Plaza",
+      "sheetId": "40e477b1-417f-42bc-8241-e9213bc2a593",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "STATUS",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "A",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "DEAL_ID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_ID)"
+        },
+        {
+          "columnName": "EXT_REF_NO",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.EXT_REF_NO)"
+        },
+        {
+          "columnName": "ACTIVE_DATE",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.ACTIVE_DATE)"
+        },
+        {
+          "columnName": "TYPE",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.TYPE)"
+        },
+        {
+          "columnName": "STATUS",
+          "columnId": "f077357f371000e33bf54d24cb368c46",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.STATUS)"
+        },
+        {
+          "columnName": "DEAL_DETAIL_ID",
+          "columnId": "f0b7d204aa3071813b311f1c6a683f76",
+          "columnIndex": 5,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_DETAIL_ID)"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "c84861b5fc650e2745e4579ab13cf9cc",
+          "columnIndex": 6,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.SUPPLIER)"
+        },
+        {
+          "columnName": "SUP_NAME",
+          "columnId": "76d41f575a80d611d643ce724e2261bc",
+          "columnIndex": 7,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.SUP_NAME)"
+        },
+        {
+          "columnName": "FEM_RFC_CODE",
+          "columnId": "89b81861bef075c08ede3861635f6a4e",
+          "columnIndex": 8,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.FEM_RFC_CODE)"
+        },
+        {
+          "columnName": "DEAL_COMP_TYPE",
+          "columnId": "165f239985b5f7e9622c40fd5be0e7fb",
+          "columnIndex": 9,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_COMP_TYPE)"
+        },
+        {
+          "columnName": "BILLING_TYPE",
+          "columnId": "3429c7d0317aeb6f2a76b8751d98b85b",
+          "columnIndex": 10,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.BILLING_TYPE)"
+        },
+        {
+          "columnName": "BILL_BACK_PERIOD",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.BILL_BACK_PERIOD)"
+        },
+        {
+          "columnName": "COLLECT_START_DATE",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COLLECT_START_DATE)"
+        },
+        {
+          "columnName": "COLLECT_END_DATE",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COLLECT_END_DATE)"
+        },
+        {
+          "columnName": "DEAL_CLASS",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DEAL_CLASS)"
+        },
+        {
+          "columnName": "COST_APPL_IND",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COST_APPL_IND)"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.ITEM)"
+        },
+        {
+          "columnName": "VALUE",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.VALUE)"
+        },
+        {
+          "columnName": "PORCENTAJE",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.PORCENTAJE)"
+        },
+        {
+          "columnName": "COMMENTS",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.COMMENTS)"
+        },
+        {
+          "columnName": "ORG_LEVEL",
+          "columnId": "20",
+          "columnIndex": 20,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.ORG_LEVEL)"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "21",
+          "columnIndex": 21,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CHAIN)"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "23",
+          "columnIndex": 22,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.AREA)"
+        },
+        {
+          "columnName": "REGION",
+          "columnId": "25",
+          "columnIndex": 23,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.REGION)"
+        },
+        {
+          "columnName": "DISTRICT",
+          "columnId": "26",
+          "columnIndex": 24,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.DISTRICT)"
+        },
+        {
+          "columnName": "LOCATION",
+          "columnId": "27",
+          "columnIndex": 25,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.LOCATION)"
+        },
+        {
+          "columnName": "EXCEPCION",
+          "columnId": "28",
+          "columnIndex": 26,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.EXCEPCION)"
+        },
+        {
+          "columnName": "CREATE_ID",
+          "columnId": "29",
+          "columnIndex": 27,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CREATE_ID)"
+        },
+        {
+          "columnName": "CREATE_DATETIME",
+          "columnId": "30",
+          "columnIndex": 28,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CREATE_DATETIME)"
+        },
+        {
+          "columnName": "APPROVAL_ID",
+          "columnId": "31",
+          "columnIndex": 29,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.APPROVAL_ID)"
+        },
+        {
+          "columnName": "CHAIN_NAME",
+          "columnId": "22",
+          "columnIndex": 30,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CHAIN_NAME)"
+        },
+        {
+          "columnName": "CR_PLAZA",
+          "columnId": "24",
+          "columnIndex": 31,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_2_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_2.CR_PLAZA)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f077357f371000e33bf54d24cb368c46",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f0b7d204aa3071813b311f1c6a683f76",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c84861b5fc650e2745e4579ab13cf9cc",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "76d41f575a80d611d643ce724e2261bc",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "89b81861bef075c08ede3861635f6a4e",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "165f239985b5f7e9622c40fd5be0e7fb",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3429c7d0317aeb6f2a76b8751d98b85b",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_ORG_LEVEL_1",
+      "sheetId": "631f0d8e-aff9-4f07-81df-478ee6ced4ac",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "ORG_LEVEL",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "1",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "DEAL_ID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_ID"
+        },
+        {
+          "columnName": "ACTIVE_DATE",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ACTIVE_DATE"
+        },
+        {
+          "columnName": "TYPE",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!TYPE"
+        },
+        {
+          "columnName": "STATUS",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!STATUS"
+        },
+        {
+          "columnName": "DEAL_DETAIL_ID",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_DETAIL_ID"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUPPLIER"
+        },
+        {
+          "columnName": "SUP_NAME",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUP_NAME"
+        },
+        {
+          "columnName": "FEM_RFC_CODE",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!FEM_RFC_CODE"
+        },
+        {
+          "columnName": "DEAL_COMP_TYPE",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_COMP_TYPE"
+        },
+        {
+          "columnName": "BILLING_TYPE",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!BILLING_TYPE"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ITEM"
+        },
+        {
+          "columnName": "ITEM_DESC",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ITEM_DESC"
+        },
+        {
+          "columnName": "VALUE",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!VALUE"
+        },
+        {
+          "columnName": "PORCENTAJE",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!PORCENTAJE"
+        },
+        {
+          "columnName": "DIVISION",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DIVISION"
+        },
+        {
+          "columnName": "DIV_NAME",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DIV_NAME"
+        },
+        {
+          "columnName": "GROUP_NO",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!GROUP_NO"
+        },
+        {
+          "columnName": "GROUP_NAME",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!GROUP_NAME"
+        },
+        {
+          "columnName": "DEPT",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEPT"
+        },
+        {
+          "columnName": "DEPT_NAME",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEPT_NAME"
+        },
+        {
+          "columnName": "CLASS",
+          "columnId": "20",
+          "columnIndex": 20,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CLASS"
+        },
+        {
+          "columnName": "CLASS_NAME",
+          "columnId": "21",
+          "columnIndex": 21,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CLASS_NAME"
+        },
+        {
+          "columnName": "SUBCLASS",
+          "columnId": "22",
+          "columnIndex": 22,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUBCLASS"
+        },
+        {
+          "columnName": "SUB_NAME",
+          "columnId": "23",
+          "columnIndex": 23,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUB_NAME"
+        },
+        {
+          "columnName": "ORG_LEVEL",
+          "columnId": "24",
+          "columnIndex": 24,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ORG_LEVEL"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "25",
+          "columnIndex": 25,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CHAIN"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "26",
+          "columnIndex": 26,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!AREA"
+        },
+        {
+          "columnName": "REGION",
+          "columnId": "27",
+          "columnIndex": 27,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!REGION"
+        },
+        {
+          "columnName": "DISTRICT",
+          "columnId": "28",
+          "columnIndex": 28,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DISTRICT"
+        },
+        {
+          "columnName": "LOCATION",
+          "columnId": "29",
+          "columnIndex": 29,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!LOCATION"
+        },
+        {
+          "columnName": "EXCEPCION",
+          "columnId": "30",
+          "columnIndex": 30,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!EXCEPCION"
+        },
+        {
+          "columnName": "CREATE_ID",
+          "columnId": "31",
+          "columnIndex": 31,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CREATE_ID"
+        },
+        {
+          "columnName": "CREATE_DATETIME",
+          "columnId": "32",
+          "columnIndex": 32,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CREATE_DATETIME"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "DIV_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "GROUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "DEPT_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CLASS_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "SUB_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "32",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1",
+      "sheetId": "c22e6946-bd9f-489b-b48d-16a9108f63cc",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "MULTI_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_1",
+            "sheet2": "IJ_RMS_DEAL_HEAD",
+            "joinColumns1": [
+              "DEAL_ID"
+            ],
+            "joinColumns2": [
+              "DEAL_ID"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_1",
+            "sheet2": "IJ_RMS_DEAL_DETAIL",
+            "joinColumns1": [
+              "DEAL_ID",
+              "DEAL_DETAIL_ID",
+              "DEAL_COMP_TYPE"
+            ],
+            "joinColumns2": [
+              "DEAL_ID",
+              "DEAL_DETAIL_ID",
+              "DEAL_COMP_TYPE"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_1",
+            "sheet2": "Estructura_Plaza",
+            "joinColumns1": [
+              "CHAIN"
+            ],
+            "joinColumns2": [
+              "CHAIN"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "FEM_DEALS_ORG_LEVEL_1": [
+            "ACTIVE_DATE",
+            "BILLING_TYPE",
+            "CHAIN",
+            "CREATE_DATETIME",
+            "CREATE_ID",
+            "DEAL_COMP_TYPE",
+            "DEAL_DETAIL_ID",
+            "DEAL_ID",
+            "DISTRICT",
+            "EXCEPCION",
+            "FEM_RFC_CODE",
+            "ITEM",
+            "LOCATION",
+            "ORG_LEVEL",
+            "PORCENTAJE",
+            "REGION",
+            "STATUS",
+            "SUPPLIER",
+            "SUP_NAME",
+            "TYPE",
+            "VALUE"
+          ],
+          "IJ_RMS_DEAL_DETAIL": [
+            "BILL_BACK_PERIOD",
+            "COLLECT_END_DATE",
+            "COLLECT_START_DATE",
+            "COST_APPL_IND",
+            "DEAL_CLASS"
+          ],
+          "Estructura_Plaza": [
+            "AREA",
+            "CHAIN_NAME",
+            "CR_PLAZA"
+          ],
+          "IJ_RMS_DEAL_HEAD": [
+            "APPROVAL_ID",
+            "COMMENTS",
+            "EXT_REF_NO"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "fd814d5e5c4acd5309f8ce07c00c4392",
+          "name": "FEM_DEALS_ORG_LEVEL_1.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "437572e0e91780266c41beeb8cfa0d44",
+          "name": "FEM_DEALS_ORG_LEVEL_1.ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "731590654e0aa1664b5f53c74309ad8f",
+          "name": "FEM_DEALS_ORG_LEVEL_1.TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "46d131eca7d0a073162b7873437673b7",
+          "name": "FEM_DEALS_ORG_LEVEL_1.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "490bbd28a5821baf14b619a120ed1d3b",
+          "name": "FEM_DEALS_ORG_LEVEL_1.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dd43dab3e86ab5e5e5412e77b619ef30",
+          "name": "FEM_DEALS_ORG_LEVEL_1.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4c05873c4255c1d0b9ad85f4abb22e34",
+          "name": "FEM_DEALS_ORG_LEVEL_1.SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4fac833e255d727de9d6103f03eb004b",
+          "name": "FEM_DEALS_ORG_LEVEL_1.FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "deaef6afa70dd2c1af38b776b5241977",
+          "name": "FEM_DEALS_ORG_LEVEL_1.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "874c6066f5d52b857ae61bc33c86bf27",
+          "name": "FEM_DEALS_ORG_LEVEL_1.BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dec446ac5b4937e77b3a518a6f315b75",
+          "name": "FEM_DEALS_ORG_LEVEL_1.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "772d66fd3d45385f53dd8d4a8064c6a0",
+          "name": "FEM_DEALS_ORG_LEVEL_1.VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e6abb658e2b5680ac5e86e9dcfeee4ed",
+          "name": "FEM_DEALS_ORG_LEVEL_1.PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6454433458fdeb556a1de06048fa7677",
+          "name": "FEM_DEALS_ORG_LEVEL_1.ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fbe8d982bc91e59e39fe81ff8ac610db",
+          "name": "FEM_DEALS_ORG_LEVEL_1.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "71ad9e7adf6fd69ad5d554131573fc17",
+          "name": "FEM_DEALS_ORG_LEVEL_1.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7260568fd3185f9b1e680fa7d6d4ce8c",
+          "name": "FEM_DEALS_ORG_LEVEL_1.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "63bb74eafccde08ab648965404f1b573",
+          "name": "FEM_DEALS_ORG_LEVEL_1.LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "adccaa268348625c8c9ffc71df5da03a",
+          "name": "FEM_DEALS_ORG_LEVEL_1.EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "de55ec8003a38335017188a040157a57",
+          "name": "FEM_DEALS_ORG_LEVEL_1.CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "430631c11b61cc05ac949bf1e67e5169",
+          "name": "FEM_DEALS_ORG_LEVEL_1.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8cafd519bedb2b4f7b7164992058bc44",
+          "name": "IJ_RMS_DEAL_HEAD.APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4fcefad2bb51bb52f0fc4680081cd060",
+          "name": "IJ_RMS_DEAL_HEAD.EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "eae257c7ae28b991befd8b0646d136a2",
+          "name": "IJ_RMS_DEAL_HEAD.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "faf4c5a736cd3267630390112fee193a",
+          "name": "IJ_RMS_DEAL_DETAIL.BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "723735b490ebc91e3e4ed21830a8e572",
+          "name": "IJ_RMS_DEAL_DETAIL.COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "52acb1b5a39d1411802741eab12015b5",
+          "name": "IJ_RMS_DEAL_DETAIL.COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "394ac71c1e365aeba3cef9a58d8568ee",
+          "name": "IJ_RMS_DEAL_DETAIL.COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b4618a69dc98c7fce9c1fe8f6a27cd6a",
+          "name": "IJ_RMS_DEAL_DETAIL.DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4766b08739137db6645254ad094daa69",
+          "name": "Estructura_Plaza.CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2e1d003088b036c41ac83445fe4e9fcb",
+          "name": "Estructura_Plaza.CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f1a9c6c662e71d9f4d92017f94b350ca",
+          "name": "Estructura_Plaza.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL",
+      "sheetId": "de641be4-7c75-4aa1-806a-9d315d04e498",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1",
+            "sheet2": "HEAD_DETAIL",
+            "joinColumns1": [
+              "FEM_DEALS_ORG_LEVEL_1.DEAL_ID",
+              "FEM_DEALS_ORG_LEVEL_1.DEAL_DETAIL_ID",
+              "FEM_DEALS_ORG_LEVEL_1.DEAL_COMP_TYPE"
+            ],
+            "joinColumns2": [
+              "IJ_RMS_DEAL_HEAD.DEAL_ID",
+              "IJ_RMS_DEAL_DETAIL.DEAL_DETAIL_ID",
+              "IJ_RMS_DEAL_DETAIL.DEAL_COMP_TYPE"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1": [
+            "FEM_DEALS_ORG_LEVEL_1.DEAL_ID",
+            "FEM_DEALS_ORG_LEVEL_1.ACTIVE_DATE",
+            "FEM_DEALS_ORG_LEVEL_1.TYPE",
+            "FEM_DEALS_ORG_LEVEL_1.STATUS",
+            "FEM_DEALS_ORG_LEVEL_1.DEAL_DETAIL_ID",
+            "FEM_DEALS_ORG_LEVEL_1.SUPPLIER",
+            "FEM_DEALS_ORG_LEVEL_1.SUP_NAME",
+            "FEM_DEALS_ORG_LEVEL_1.FEM_RFC_CODE",
+            "FEM_DEALS_ORG_LEVEL_1.DEAL_COMP_TYPE",
+            "FEM_DEALS_ORG_LEVEL_1.BILLING_TYPE",
+            "FEM_DEALS_ORG_LEVEL_1.ITEM",
+            "FEM_DEALS_ORG_LEVEL_1.VALUE",
+            "FEM_DEALS_ORG_LEVEL_1.PORCENTAJE",
+            "FEM_DEALS_ORG_LEVEL_1.ORG_LEVEL",
+            "FEM_DEALS_ORG_LEVEL_1.CHAIN",
+            "FEM_DEALS_ORG_LEVEL_1.REGION",
+            "FEM_DEALS_ORG_LEVEL_1.DISTRICT",
+            "FEM_DEALS_ORG_LEVEL_1.LOCATION",
+            "FEM_DEALS_ORG_LEVEL_1.EXCEPCION",
+            "FEM_DEALS_ORG_LEVEL_1.CREATE_ID",
+            "FEM_DEALS_ORG_LEVEL_1.CREATE_DATETIME",
+            "IJ_RMS_DEAL_HEAD.APPROVAL_ID",
+            "IJ_RMS_DEAL_HEAD.EXT_REF_NO",
+            "IJ_RMS_DEAL_HEAD.COMMENTS",
+            "IJ_RMS_DEAL_DETAIL.BILL_BACK_PERIOD",
+            "IJ_RMS_DEAL_DETAIL.COLLECT_START_DATE",
+            "IJ_RMS_DEAL_DETAIL.COLLECT_END_DATE",
+            "IJ_RMS_DEAL_DETAIL.COST_APPL_IND",
+            "IJ_RMS_DEAL_DETAIL.DEAL_CLASS",
+            "Estructura_Plaza.CHAIN_NAME",
+            "Estructura_Plaza.CR_PLAZA",
+            "Estructura_Plaza.AREA"
+          ],
+          "HEAD_DETAIL": []
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "35e13c877ab982b39e27ff7d0a506512",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d7058327eb6c084d1f331f84c3e36f05",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5da8b25d617639421a1a2575ffd46610",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "eedbda3a1352c24c8ba27e85c2aec895",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "041da4b71993b7a8f07b3163bcd6b8ed",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b5e61a8c18e7bf40198143de6db5a40b",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a8fe85ad44c8e03eceb5ac2812bef6f5",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7b81c560ba71972e3f806a962c55b54d",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "de0028636ae88064c05b8243317ff798",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27c40d99ae019f6827ac2442fe8dfbea",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9e38fb67d4c44511159d50ba52268419",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "87c6584c62627ee04fc7dfe3976f5f43",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a674d01c33ab3c55cd9cf8f0e2a89003",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10a6cb5c0f12d54edbcc70e769328185",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8b1637374ecc5584b7fce5243aa85b19",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "43570ed294b4e2497bf0e6fd8670ed46",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "cc970f1aeb472cd005f7639fb048dac9",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5bd07576384fccd7f70338c853e5eeec",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b779e99a65ee9bbf4025bb2c9bbbd40f",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6e0fbf1d35cb51373739b49009a86d61",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a47ec209185eca4dfcf506c1d5f349fe",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4b55f1752050eac560d3ede4a067ebbd",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9b07bebaa044d71c6297c09624208727",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e7216a50f287d07b852b2d4088616540",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a5e5ccdee7ace3e4074295a56689246e",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "aa040f7ae344773c1626bff9fddc21bc",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d69dead777482b68b9c1055ff77ff6ef",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "be831eb456329c068f734acaf72dc2a4",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c019ae7ea96872f0f19c6eb7954dad64",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "be525d425ab020fc03465a26a323560a",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d11972fcbe6506bd7711f20fb3507b70",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dcf561105ed78d8cbd0fdffa5ce17988",
+          "name": "FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Deals_Level1",
+      "sheetId": "e723fc9f-96cd-4997-b6b1-ca6911e79cde",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "STATUS",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "A",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "DEAL_ID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_ID)"
+        },
+        {
+          "columnName": "EXT_REF_NO",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.EXT_REF_NO)"
+        },
+        {
+          "columnName": "ACTIVE_DATE",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.ACTIVE_DATE)"
+        },
+        {
+          "columnName": "TYPE",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.TYPE)"
+        },
+        {
+          "columnName": "STATUS",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.STATUS)"
+        },
+        {
+          "columnName": "DEAL_DETAIL_ID",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_DETAIL_ID)"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.SUPPLIER)"
+        },
+        {
+          "columnName": "SUP_NAME",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.SUP_NAME)"
+        },
+        {
+          "columnName": "FEM_RFC_CODE",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.FEM_RFC_CODE)"
+        },
+        {
+          "columnName": "DEAL_COMP_TYPE",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_COMP_TYPE)"
+        },
+        {
+          "columnName": "BILLING_TYPE",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.BILLING_TYPE)"
+        },
+        {
+          "columnName": "BILL_BACK_PERIOD",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.BILL_BACK_PERIOD)"
+        },
+        {
+          "columnName": "COLLECT_START_DATE",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COLLECT_START_DATE)"
+        },
+        {
+          "columnName": "COLLECT_END_DATE",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COLLECT_END_DATE)"
+        },
+        {
+          "columnName": "DEAL_CLASS",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DEAL_CLASS)"
+        },
+        {
+          "columnName": "COST_APPL_IND",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COST_APPL_IND)"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.ITEM)"
+        },
+        {
+          "columnName": "VALUE",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.VALUE)"
+        },
+        {
+          "columnName": "PORCENTAJE",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.PORCENTAJE)"
+        },
+        {
+          "columnName": "COMMENTS",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.COMMENTS)"
+        },
+        {
+          "columnName": "ORG_LEVEL",
+          "columnId": "20",
+          "columnIndex": 20,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.ORG_LEVEL)"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "21",
+          "columnIndex": 21,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CHAIN)"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "22",
+          "columnIndex": 22,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.AREA)"
+        },
+        {
+          "columnName": "REGION",
+          "columnId": "23",
+          "columnIndex": 23,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.REGION)"
+        },
+        {
+          "columnName": "DISTRICT",
+          "columnId": "24",
+          "columnIndex": 24,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.DISTRICT)"
+        },
+        {
+          "columnName": "LOCATION",
+          "columnId": "25",
+          "columnIndex": 25,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.LOCATION)"
+        },
+        {
+          "columnName": "EXCEPCION",
+          "columnId": "26",
+          "columnIndex": 26,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.EXCEPCION)"
+        },
+        {
+          "columnName": "CREATE_ID",
+          "columnId": "27",
+          "columnIndex": 27,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CREATE_ID)"
+        },
+        {
+          "columnName": "CREATE_DATETIME",
+          "columnId": "28",
+          "columnIndex": 28,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CREATE_DATETIME)"
+        },
+        {
+          "columnName": "APPROVAL_ID",
+          "columnId": "29",
+          "columnIndex": 29,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.APPROVAL_ID)"
+        },
+        {
+          "columnName": "CHAIN_NAME",
+          "columnId": "30",
+          "columnIndex": 30,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CHAIN_NAME)"
+        },
+        {
+          "columnName": "CR_PLAZA",
+          "columnId": "31",
+          "columnIndex": 31,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_1_HEAD_DETAIL!FEM_DEALS_EST_PLAZA_ORG_LEVEL_1.CR_PLAZA)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_ORG_LEVEL_5",
+      "sheetId": "47c4aa83-df7d-4715-b30f-a2409adc70c8",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "ORG_LEVEL",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "5",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "DEAL_ID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_ID"
+        },
+        {
+          "columnName": "ACTIVE_DATE",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ACTIVE_DATE"
+        },
+        {
+          "columnName": "TYPE",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!TYPE"
+        },
+        {
+          "columnName": "STATUS",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!STATUS"
+        },
+        {
+          "columnName": "DEAL_DETAIL_ID",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_DETAIL_ID"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUPPLIER"
+        },
+        {
+          "columnName": "SUP_NAME",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUP_NAME"
+        },
+        {
+          "columnName": "FEM_RFC_CODE",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!FEM_RFC_CODE"
+        },
+        {
+          "columnName": "DEAL_COMP_TYPE",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEAL_COMP_TYPE"
+        },
+        {
+          "columnName": "BILLING_TYPE",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!BILLING_TYPE"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ITEM"
+        },
+        {
+          "columnName": "ITEM_DESC",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ITEM_DESC"
+        },
+        {
+          "columnName": "VALUE",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!VALUE"
+        },
+        {
+          "columnName": "PORCENTAJE",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!PORCENTAJE"
+        },
+        {
+          "columnName": "DIVISION",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DIVISION"
+        },
+        {
+          "columnName": "DIV_NAME",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DIV_NAME"
+        },
+        {
+          "columnName": "GROUP_NO",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!GROUP_NO"
+        },
+        {
+          "columnName": "GROUP_NAME",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!GROUP_NAME"
+        },
+        {
+          "columnName": "DEPT",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEPT"
+        },
+        {
+          "columnName": "DEPT_NAME",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DEPT_NAME"
+        },
+        {
+          "columnName": "CLASS",
+          "columnId": "20",
+          "columnIndex": 20,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CLASS"
+        },
+        {
+          "columnName": "CLASS_NAME",
+          "columnId": "21",
+          "columnIndex": 21,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CLASS_NAME"
+        },
+        {
+          "columnName": "SUBCLASS",
+          "columnId": "22",
+          "columnIndex": 22,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUBCLASS"
+        },
+        {
+          "columnName": "SUB_NAME",
+          "columnId": "23",
+          "columnIndex": 23,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!SUB_NAME"
+        },
+        {
+          "columnName": "ORG_LEVEL",
+          "columnId": "24",
+          "columnIndex": 24,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!ORG_LEVEL"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "25",
+          "columnIndex": 25,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CHAIN"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "26",
+          "columnIndex": 26,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!AREA"
+        },
+        {
+          "columnName": "REGION",
+          "columnId": "27",
+          "columnIndex": 27,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!REGION"
+        },
+        {
+          "columnName": "DISTRICT",
+          "columnId": "28",
+          "columnIndex": 28,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!DISTRICT"
+        },
+        {
+          "columnName": "LOCATION",
+          "columnId": "29",
+          "columnIndex": 29,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!LOCATION"
+        },
+        {
+          "columnName": "EXCEPCION",
+          "columnId": "30",
+          "columnIndex": 30,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!EXCEPCION"
+        },
+        {
+          "columnName": "CREATE_ID",
+          "columnId": "31",
+          "columnIndex": 31,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CREATE_ID"
+        },
+        {
+          "columnName": "CREATE_DATETIME",
+          "columnId": "32",
+          "columnIndex": 32,
+          "formulaString": "\u003d#IJ_RMS_FEM_DEALS_NIVEL_ITEM!CREATE_DATETIME"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "DIV_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "GROUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "DEPT_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CLASS_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "SUB_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "32",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5",
+      "sheetId": "d9f6693c-cfa1-45a5-bd7f-cd5aae1c39bd",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "MULTI_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_5",
+            "sheet2": "IJ_RMS_DEAL_HEAD",
+            "joinColumns1": [
+              "DEAL_ID"
+            ],
+            "joinColumns2": [
+              "DEAL_ID"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_ORG_LEVEL_5",
+            "sheet2": "IJ_RMS_DEAL_DETAIL",
+            "joinColumns1": [
+              "DEAL_ID",
+              "DEAL_DETAIL_ID",
+              "DEAL_COMP_TYPE"
+            ],
+            "joinColumns2": [
+              "DEAL_ID",
+              "DEAL_DETAIL_ID",
+              "DEAL_COMP_TYPE"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "IJ_RMS_DEAL_DETAIL": [
+            "BILL_BACK_PERIOD",
+            "COLLECT_END_DATE",
+            "COLLECT_START_DATE",
+            "COST_APPL_IND",
+            "DEAL_CLASS"
+          ],
+          "FEM_DEALS_ORG_LEVEL_5": [
+            "ACTIVE_DATE",
+            "AREA",
+            "BILLING_TYPE",
+            "CHAIN",
+            "CREATE_DATETIME",
+            "CREATE_ID",
+            "DEAL_COMP_TYPE",
+            "DEAL_DETAIL_ID",
+            "DEAL_ID",
+            "DISTRICT",
+            "EXCEPCION",
+            "FEM_RFC_CODE",
+            "ITEM",
+            "LOCATION",
+            "ORG_LEVEL",
+            "PORCENTAJE",
+            "REGION",
+            "STATUS",
+            "SUPPLIER",
+            "SUP_NAME",
+            "TYPE",
+            "VALUE"
+          ],
+          "IJ_RMS_DEAL_HEAD": [
+            "APPROVAL_ID",
+            "COMMENTS",
+            "EXT_REF_NO"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "7d483c0bc0f136edb2b6b9b7cbadbee7",
+          "name": "FEM_DEALS_ORG_LEVEL_5.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7bd7f8c7788430774c7035686123b1c6",
+          "name": "FEM_DEALS_ORG_LEVEL_5.ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1f336d5f8fefaa2336226fe5fc4786f5",
+          "name": "FEM_DEALS_ORG_LEVEL_5.TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ea14d4f6c1fcfa8a908ff3f4a4b5a4d9",
+          "name": "FEM_DEALS_ORG_LEVEL_5.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "108c1291720f641f04740182b12b11f6",
+          "name": "FEM_DEALS_ORG_LEVEL_5.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f0aee3933228118c186e8deb90936e12",
+          "name": "FEM_DEALS_ORG_LEVEL_5.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "43217dba50d113b017b1d765fcf4574d",
+          "name": "FEM_DEALS_ORG_LEVEL_5.SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "868a1c737d642dd3b8183967c6f27f06",
+          "name": "FEM_DEALS_ORG_LEVEL_5.FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9f2d2ddb14cf5553939ddb4c03251399",
+          "name": "FEM_DEALS_ORG_LEVEL_5.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bec6d208ff81dc22692f7b1c3804576c",
+          "name": "FEM_DEALS_ORG_LEVEL_5.BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7f635bc3bd0220ba8c1aa6eff8e1bc01",
+          "name": "FEM_DEALS_ORG_LEVEL_5.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ee0988c307d8156920448bd8ebe64d40",
+          "name": "FEM_DEALS_ORG_LEVEL_5.VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3d484432b659c0e6f9b6d1b5a850d2bc",
+          "name": "FEM_DEALS_ORG_LEVEL_5.PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7d4e507703dca45b551a2293b0a9cb14",
+          "name": "FEM_DEALS_ORG_LEVEL_5.ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4aac0c9222e7635fee146b7bc08b5baa",
+          "name": "FEM_DEALS_ORG_LEVEL_5.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bee14d13c53f9b1da42391dea2f213d8",
+          "name": "FEM_DEALS_ORG_LEVEL_5.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "936d4aadd21d47c54c2f3a40ccc681ef",
+          "name": "FEM_DEALS_ORG_LEVEL_5.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2317fbf116c4a52cc01ed1a3837d4551",
+          "name": "FEM_DEALS_ORG_LEVEL_5.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28be6c5dd088dcd953da5138b5909c87",
+          "name": "FEM_DEALS_ORG_LEVEL_5.LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f24ddfd9427816e5b715d51d414e0f4c",
+          "name": "FEM_DEALS_ORG_LEVEL_5.EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e6f56da869542147ebfe9fca1301b356",
+          "name": "FEM_DEALS_ORG_LEVEL_5.CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "907522d241857c584e2e233f9b7bf97d",
+          "name": "FEM_DEALS_ORG_LEVEL_5.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8cafd519bedb2b4f7b7164992058bc44",
+          "name": "IJ_RMS_DEAL_HEAD.APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4fcefad2bb51bb52f0fc4680081cd060",
+          "name": "IJ_RMS_DEAL_HEAD.EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "eae257c7ae28b991befd8b0646d136a2",
+          "name": "IJ_RMS_DEAL_HEAD.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "faf4c5a736cd3267630390112fee193a",
+          "name": "IJ_RMS_DEAL_DETAIL.BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "723735b490ebc91e3e4ed21830a8e572",
+          "name": "IJ_RMS_DEAL_DETAIL.COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "52acb1b5a39d1411802741eab12015b5",
+          "name": "IJ_RMS_DEAL_DETAIL.COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "394ac71c1e365aeba3cef9a58d8568ee",
+          "name": "IJ_RMS_DEAL_DETAIL.COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b4618a69dc98c7fce9c1fe8f6a27cd6a",
+          "name": "IJ_RMS_DEAL_DETAIL.DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL",
+      "sheetId": "3622bc13-bfd1-408e-8382-cdb219df52b6",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5",
+            "sheet2": "HEAD_DETAIL",
+            "joinColumns1": [
+              "FEM_DEALS_ORG_LEVEL_5.DEAL_ID",
+              "FEM_DEALS_ORG_LEVEL_5.DEAL_DETAIL_ID",
+              "FEM_DEALS_ORG_LEVEL_5.DEAL_COMP_TYPE"
+            ],
+            "joinColumns2": [
+              "IJ_RMS_DEAL_HEAD.DEAL_ID",
+              "IJ_RMS_DEAL_DETAIL.DEAL_DETAIL_ID",
+              "IJ_RMS_DEAL_DETAIL.DEAL_COMP_TYPE"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5": [
+            "FEM_DEALS_ORG_LEVEL_5.DEAL_ID",
+            "FEM_DEALS_ORG_LEVEL_5.ACTIVE_DATE",
+            "FEM_DEALS_ORG_LEVEL_5.TYPE",
+            "FEM_DEALS_ORG_LEVEL_5.STATUS",
+            "FEM_DEALS_ORG_LEVEL_5.DEAL_DETAIL_ID",
+            "FEM_DEALS_ORG_LEVEL_5.SUPPLIER",
+            "FEM_DEALS_ORG_LEVEL_5.SUP_NAME",
+            "FEM_DEALS_ORG_LEVEL_5.FEM_RFC_CODE",
+            "FEM_DEALS_ORG_LEVEL_5.DEAL_COMP_TYPE",
+            "FEM_DEALS_ORG_LEVEL_5.BILLING_TYPE",
+            "FEM_DEALS_ORG_LEVEL_5.ITEM",
+            "FEM_DEALS_ORG_LEVEL_5.VALUE",
+            "FEM_DEALS_ORG_LEVEL_5.PORCENTAJE",
+            "FEM_DEALS_ORG_LEVEL_5.ORG_LEVEL",
+            "FEM_DEALS_ORG_LEVEL_5.CHAIN",
+            "FEM_DEALS_ORG_LEVEL_5.AREA",
+            "FEM_DEALS_ORG_LEVEL_5.REGION",
+            "FEM_DEALS_ORG_LEVEL_5.DISTRICT",
+            "FEM_DEALS_ORG_LEVEL_5.LOCATION",
+            "FEM_DEALS_ORG_LEVEL_5.EXCEPCION",
+            "FEM_DEALS_ORG_LEVEL_5.CREATE_ID",
+            "FEM_DEALS_ORG_LEVEL_5.CREATE_DATETIME",
+            "IJ_RMS_DEAL_HEAD.APPROVAL_ID",
+            "IJ_RMS_DEAL_HEAD.EXT_REF_NO",
+            "IJ_RMS_DEAL_HEAD.COMMENTS",
+            "IJ_RMS_DEAL_DETAIL.BILL_BACK_PERIOD",
+            "IJ_RMS_DEAL_DETAIL.COLLECT_START_DATE",
+            "IJ_RMS_DEAL_DETAIL.COLLECT_END_DATE",
+            "IJ_RMS_DEAL_DETAIL.COST_APPL_IND",
+            "IJ_RMS_DEAL_DETAIL.DEAL_CLASS"
+          ],
+          "HEAD_DETAIL": []
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "ba84f8162b6f483990d73081896aa4f3",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dc6387bebe80f1891c66895a52dbff26",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "90f4b95e717836080f3495340a284558",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "84092489c7c95b24c63b305b93fe9669",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "70cdc7eab04bcaa65cba533cd46bfb7c",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9ce245846d679aae0012c64419610faf",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "07d7af6de486229b90967d911002f6d9",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f3fbb3abced9ff65f7b0990c06e6777d",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20b36ad8c7780f69e848702b84fac14b",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6fb4176fd7bd594a6a1254ef989427b7",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "64d39828edf3a20364e228beac840c03",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d563c29b8523cca54e063085855a9ec7",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b45772176b3d6bfcc35f4cdbecb37bb7",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "920f3fd0f141baace91d46ebab01f785",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1577ea12aa265db845063fd1862a8d62",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e829eef7a27d09f0612f70add777ea88",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1a5a1e1142ac935071c751d979be51a1",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7d688f8dc242840ee7b1c212389cf37e",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "502f322d2eea0e4ccc25ecfedc584d0f",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c0291d5d28d7c9d9f365df8b86dd88f5",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c29f400faf1d966bf36fb8ac604e5a67",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fdd520bb1b74829ffa8a39e8cbb5d60b",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "456bea3b2a43fd1b34d4af127f0eedea",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b1357a6527b4c51cb4056fb1883dfe1c",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e800077982915528c84baa1bd91ffee8",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b0185a366e2661e262b0cb0203773357",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "535911b2bfe8759fdfb41593dbf212e7",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f252552c93e3eb8f425a2315913e74bc",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d15a6e007e813ef7d9624464aa951575",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "38ac96e5dcb3553b9fa4083b3bbf0e03",
+          "name": "FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Deals_Level5",
+      "sheetId": "090a87b4-456f-4753-a3a4-3dde4026f0ba",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "STATUS",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "A",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "DEAL_ID",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_ID)"
+        },
+        {
+          "columnName": "EXT_REF_NO",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.EXT_REF_NO)"
+        },
+        {
+          "columnName": "ACTIVE_DATE",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.ACTIVE_DATE)"
+        },
+        {
+          "columnName": "TYPE",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.TYPE)"
+        },
+        {
+          "columnName": "STATUS",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.STATUS)"
+        },
+        {
+          "columnName": "DEAL_DETAIL_ID",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_DETAIL_ID)"
+        },
+        {
+          "columnName": "SUPPLIER",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.SUPPLIER)"
+        },
+        {
+          "columnName": "SUP_NAME",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.SUP_NAME)"
+        },
+        {
+          "columnName": "FEM_RFC_CODE",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.FEM_RFC_CODE)"
+        },
+        {
+          "columnName": "DEAL_COMP_TYPE",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_COMP_TYPE)"
+        },
+        {
+          "columnName": "BILLING_TYPE",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.BILLING_TYPE)"
+        },
+        {
+          "columnName": "BILL_BACK_PERIOD",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.BILL_BACK_PERIOD)"
+        },
+        {
+          "columnName": "COLLECT_START_DATE",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COLLECT_START_DATE)"
+        },
+        {
+          "columnName": "COLLECT_END_DATE",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COLLECT_END_DATE)"
+        },
+        {
+          "columnName": "DEAL_CLASS",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DEAL_CLASS)"
+        },
+        {
+          "columnName": "COST_APPL_IND",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COST_APPL_IND)"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.ITEM)"
+        },
+        {
+          "columnName": "VALUE",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.VALUE)"
+        },
+        {
+          "columnName": "PORCENTAJE",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.PORCENTAJE)"
+        },
+        {
+          "columnName": "COMMENTS",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.COMMENTS)"
+        },
+        {
+          "columnName": "ORG_LEVEL",
+          "columnId": "20",
+          "columnIndex": 20,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.ORG_LEVEL)"
+        },
+        {
+          "columnName": "CHAIN",
+          "columnId": "21",
+          "columnIndex": 21,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.CHAIN)"
+        },
+        {
+          "columnName": "AREA",
+          "columnId": "22",
+          "columnIndex": 22,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.AREA)"
+        },
+        {
+          "columnName": "REGION",
+          "columnId": "23",
+          "columnIndex": 23,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.REGION)"
+        },
+        {
+          "columnName": "DISTRICT",
+          "columnId": "24",
+          "columnIndex": 24,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.DISTRICT)"
+        },
+        {
+          "columnName": "LOCATION",
+          "columnId": "25",
+          "columnIndex": 25,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.LOCATION)"
+        },
+        {
+          "columnName": "EXCEPCION",
+          "columnId": "26",
+          "columnIndex": 26,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.EXCEPCION)"
+        },
+        {
+          "columnName": "CREATE_ID",
+          "columnId": "27",
+          "columnIndex": 27,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.CREATE_ID)"
+        },
+        {
+          "columnName": "CREATE_DATETIME",
+          "columnId": "28",
+          "columnIndex": 28,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.CREATE_DATETIME)"
+        },
+        {
+          "columnName": "APPROVAL_ID",
+          "columnId": "29",
+          "columnIndex": 29,
+          "formulaString": "\u003dGROUPBY(#FEM_DEALS_ORG_LEVEL_5_HEAD_DETAIL!FEM_DEALS_HEAD_DETAIL_ORG_LEVEL_5.APPROVAL_ID)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Todo_Deals_Activos",
+      "sheetId": "586fc554-032e-403d-a5c2-07fa9ed234c9",
+      "sheetType": "das.internal.UnionSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "unionSources": [
+          "Deals_Level1",
+          "Deals_CR_Plaza",
+          "Deals_Level5"
+        ]
+      },
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
