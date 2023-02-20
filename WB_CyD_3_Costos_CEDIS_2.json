@@ -1,0 +1,768 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "654166e7-d193-4ae2-8191-b020fae812f2",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_3_Costos_CEDIS_2.wbk",
+    "description": "",
+    "name": "WB_CyD_3_Costos_CEDIS_2"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Item_Supp_Country_Loc",
+      "sheetId": "e563341d-d49e-4eea-a3e5-7aa0a7498124",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Item_Supp_Country_Loc",
+        "sheetId": "391d1194-5ea7-492d-976e-e4c439666fc2",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_2_Item_Supp_Country_Loc.wbk",
+          "uuid": "ad9e4933-05a9-4443-98f0-f1fb825ddfa9"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "LIST_UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_ITEM_LOC",
+      "sheetId": "efa7bcb4-1ecd-42ca-b0d7-9cb09ae09cbb",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_ITEM_LOC.imp",
+        "uuid": "637601ee-8db0-4f6c-aabc-6c08c6b33c9f"
+      },
+      "columnStyles": [
+        {
+          "columnId": "ITEM",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOC",
+          "name": "LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_PARENT",
+          "name": "ITEM_PARENT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_GRANDPARENT",
+          "name": "ITEM_GRANDPARENT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOC_TYPE",
+          "name": "LOC_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "UNIT_RETAIL",
+          "name": "UNIT_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SELLING_UNIT_RETAIL",
+          "name": "SELLING_UNIT_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SELLING_UOM",
+          "name": "SELLING_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PROMO_RETAIL",
+          "name": "PROMO_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PROMO_SELLING_RETAIL",
+          "name": "PROMO_SELLING_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PROMO_SELLING_UOM",
+          "name": "PROMO_SELLING_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLEAR_IND",
+          "name": "CLEAR_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TAXABLE_IND",
+          "name": "TAXABLE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOCAL_ITEM_DESC",
+          "name": "LOCAL_ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LOCAL_SHORT_DESC",
+          "name": "LOCAL_SHORT_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TI",
+          "name": "TI",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "HI",
+          "name": "HI",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_ORD_MULT",
+          "name": "STORE_ORD_MULT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATUS",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATUS_UPDATE_DATE",
+          "name": "STATUS_UPDATE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DAILY_WASTE_PCT",
+          "name": "DAILY_WASTE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MEAS_OF_EACH",
+          "name": "MEAS_OF_EACH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MEAS_OF_PRICE",
+          "name": "MEAS_OF_PRICE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "UOM_OF_PRICE",
+          "name": "UOM_OF_PRICE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_VARIANT",
+          "name": "PRIMARY_VARIANT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_COST_PACK",
+          "name": "PRIMARY_COST_PACK",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_SUPP",
+          "name": "PRIMARY_SUPP",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_CNTRY",
+          "name": "PRIMARY_CNTRY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "RECEIVE_AS_TYPE",
+          "name": "RECEIVE_AS_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_DATETIME",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_ID",
+          "name": "LAST_UPDATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Item_Loc_Item_Supp_Country_Loc",
+      "sheetId": "7afce753-6bde-41ad-bf04-48d5d4b9b7ec",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "Item_Supp_Country_Loc",
+            "sheet2": "IJ_RMS_ITEM_LOC",
+            "joinColumns1": [
+              "ITEM",
+              "LOC",
+              "SUPPLIER",
+              "ORIGIN_COUNTRY_ID"
+            ],
+            "joinColumns2": [
+              "ITEM",
+              "LOC",
+              "PRIMARY_SUPP",
+              "PRIMARY_CNTRY"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "Item_Supp_Country_Loc": [
+            "ITEM",
+            "SUPPLIER",
+            "ORIGIN_COUNTRY_ID",
+            "LOC",
+            "UNIT_COST"
+          ],
+          "IJ_RMS_ITEM_LOC": []
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "f525d6afecafe698bbc9199400f039f2",
+          "name": "Item_Supp_Country_Loc.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e26dac96f2362d6f8b6162db8dd356d5",
+          "name": "Item_Supp_Country_Loc.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "efa2953f218185f12fd58f46d3b6515d",
+          "name": "Item_Supp_Country_Loc.ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c8289522b0e327f61ccd3a4c9dff1916",
+          "name": "Item_Supp_Country_Loc.LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "81835f62a40d0b41e4d56d64feb305de",
+          "name": "Item_Supp_Country_Loc.UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_WH",
+      "sheetId": "1e8c2529-59e9-48e4-b6fd-6a22386392b9",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_WH.imp",
+        "uuid": "5e824847-28ca-49a6-9925-bae1ef3260d3"
+      },
+      "columnStyles": [
+        {
+          "columnId": "WH",
+          "name": "WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WH_NAME",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "EMAIL",
+          "name": "EMAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "VAT_REGION",
+          "name": "VAT_REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORG_HIER_TYPE",
+          "name": "ORG_HIER_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORG_HIER_VALUE",
+          "name": "ORG_HIER_VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CURRENCY_CODE",
+          "name": "CURRENCY_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PHYSICAL_WH",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_VWH",
+          "name": "PRIMARY_VWH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHANNEL_ID",
+          "name": "CHANNEL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STOCKHOLDING_IND",
+          "name": "STOCKHOLDING_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BREAK_PACK_IND",
+          "name": "BREAK_PACK_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REDIST_WH_IND",
+          "name": "REDIST_WH_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DELIVERY_POLICY",
+          "name": "DELIVERY_POLICY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "RESTRICTED_IND",
+          "name": "RESTRICTED_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PROTECTED_IND",
+          "name": "PROTECTED_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "FORECAST_WH_IND",
+          "name": "FORECAST_WH_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ROUNDING_SEQ",
+          "name": "ROUNDING_SEQ",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REPL_IND",
+          "name": "REPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REPL_WH_LINK",
+          "name": "REPL_WH_LINK",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "REPL_SRC_ORD",
+          "name": "REPL_SRC_ORD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "IB_IND",
+          "name": "IB_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "IB_WH_LINK",
+          "name": "IB_WH_LINK",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "AUTO_IB_CLEAR",
+          "name": "AUTO_IB_CLEAR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DUNS_LOC",
+          "name": "DUNS_LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WH_ADD1",
+          "name": "WH_ADD1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WH_ADD2",
+          "name": "WH_ADD2",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WH_CITY",
+          "name": "WH_CITY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATE",
+          "name": "STATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COUNTRY_ID",
+          "name": "COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WH_PCODE",
+          "name": "WH_PCODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ADDR_CHG",
+          "name": "ADDR_CHG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COUNTY",
+          "name": "COUNTY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DUNS_NUMBER",
+          "name": "DUNS_NUMBER",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Item_Supp_Country_Loc_WH",
+      "sheetId": "f775bb6c-c062-4560-bc37-6e31495dac60",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "Item_Loc_Item_Supp_Country_Loc",
+            "sheet2": "IJ_RMS_WH",
+            "joinColumns1": [
+              "Item_Supp_Country_Loc.LOC"
+            ],
+            "joinColumns2": [
+              "WH"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "Item_Loc_Item_Supp_Country_Loc": [
+            "Item_Supp_Country_Loc.ITEM",
+            "Item_Supp_Country_Loc.SUPPLIER",
+            "Item_Supp_Country_Loc.ORIGIN_COUNTRY_ID",
+            "Item_Supp_Country_Loc.LOC",
+            "Item_Supp_Country_Loc.UNIT_COST"
+          ],
+          "IJ_RMS_WH": [
+            "WH",
+            "WH_NAME",
+            "PHYSICAL_WH"
+          ]
+        },
+        "displayJoinColumnsUpfront": true
+      },
+      "columnStyles": [
+        {
+          "columnId": "6738fc1eab2454e5168c398d8b547308",
+          "name": "Item_Loc_Item_Supp_Country_Loc.LOC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6fcfe9296e147b9755cd660e9c19d133",
+          "name": "IJ_RMS_WH.WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3da23c81210fd8b2b3af7109cea9ff88",
+          "name": "Item_Loc_Item_Supp_Country_Loc.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c53c708246efa25831974a53ec6aab6e",
+          "name": "Item_Loc_Item_Supp_Country_Loc.SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5353ad4a0484ebdbcc18ef778e8ff2b8",
+          "name": "Item_Loc_Item_Supp_Country_Loc.ORIGIN_COUNTRY_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8ddf205988bae44f1a305501cb10eebd",
+          "name": "Item_Loc_Item_Supp_Country_Loc.UNIT_COST",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d36e6a9d60c2ce8c5b35f8ac694faeb5",
+          "name": "IJ_RMS_WH.WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "03ed9f4d5ad21f6dbeb9f3188351d24c",
+          "name": "IJ_RMS_WH.PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Costos_CEDIS_2",
+      "sheetId": "0c810830-f164-4e42-b17c-aace79fa8dc6",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": true,
+      "formulas": [
+        {
+          "columnName": "ALCANCE",
+          "columnId": "7",
+          "columnIndex": 0,
+          "formulaString": "\u003d\"CEDIS\""
+        },
+        {
+          "columnName": "CR_PLAZA",
+          "columnId": "9",
+          "columnIndex": 1,
+          "formulaString": "\u003d\"\""
+        },
+        {
+          "columnName": "WH_AREA",
+          "columnId": "0",
+          "columnIndex": 2,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_WH!IJ_RMS_WH.WH)"
+        },
+        {
+          "columnName": "WH_NAME",
+          "columnId": "2",
+          "columnIndex": 3,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_WH!IJ_RMS_WH.WH_NAME)"
+        },
+        {
+          "columnName": "ITEM",
+          "columnId": "3",
+          "columnIndex": 4,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_WH!Item_Loc_Item_Supp_Country_Loc.ITEM)"
+        },
+        {
+          "columnName": "PROVEEDOR",
+          "columnId": "4",
+          "columnIndex": 5,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_WH!Item_Loc_Item_Supp_Country_Loc.SUPPLIER)"
+        },
+        {
+          "columnName": "COSTO",
+          "columnId": "5",
+          "columnIndex": 6,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_WH!Item_Loc_Item_Supp_Country_Loc.UNIT_COST)"
+        },
+        {
+          "columnName": "TOTAL_TIENDAS",
+          "columnId": "6",
+          "columnIndex": 7,
+          "formulaString": "\u003dGROUPCOUNT()"
+        },
+        {
+          "columnName": "PHYSICAL_WH",
+          "columnId": "1",
+          "columnIndex": 8,
+          "formulaString": "\u003dGROUPBY(#Item_Supp_Country_Loc_WH!IJ_RMS_WH.PHYSICAL_WH)"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "7",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
