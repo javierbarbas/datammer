@@ -1,0 +1,1360 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "7df9fb1d-264d-4ec6-9859-5c8398dc60dd",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_5_Estructura_Item_R.wbk",
+    "description": "",
+    "name": "WB_CyD_5_Estructura_Item_R"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "IJ_RMS_ITEM_MASTER",
+      "sheetId": "f075d4b0-b9a0-4a29-a0b6-14cd3eb15546",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_ITEM_MASTER.imp",
+        "uuid": "e56d77b3-e9d8-409b-aa48-2232bed0bfa2"
+      },
+      "columnStyles": [
+        {
+          "columnId": "ITEM",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_NUMBER_TYPE",
+          "name": "ITEM_NUMBER_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "FORMAT_ID",
+          "name": "FORMAT_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PREFIX",
+          "name": "PREFIX",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_PARENT",
+          "name": "ITEM_PARENT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_GRANDPARENT",
+          "name": "ITEM_GRANDPARENT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PACK_IND",
+          "name": "PACK_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_LEVEL",
+          "name": "ITEM_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TRAN_LEVEL",
+          "name": "TRAN_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_AGGREGATE_IND",
+          "name": "ITEM_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_1",
+          "name": "DIFF_1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_1_AGGREGATE_IND",
+          "name": "DIFF_1_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_2",
+          "name": "DIFF_2",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_2_AGGREGATE_IND",
+          "name": "DIFF_2_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_3",
+          "name": "DIFF_3",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_3_AGGREGATE_IND",
+          "name": "DIFF_3_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_4",
+          "name": "DIFF_4",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIFF_4_AGGREGATE_IND",
+          "name": "DIFF_4_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEPT",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUBCLASS",
+          "name": "SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STATUS",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_DESC",
+          "name": "ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SHORT_DESC",
+          "name": "SHORT_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DESC_UP",
+          "name": "DESC_UP",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PRIMARY_REF_ITEM_IND",
+          "name": "PRIMARY_REF_ITEM_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "RETAIL_ZONE_GROUP_ID",
+          "name": "RETAIL_ZONE_GROUP_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COST_ZONE_GROUP_ID",
+          "name": "COST_ZONE_GROUP_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STANDARD_UOM",
+          "name": "STANDARD_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "UOM_CONV_FACTOR",
+          "name": "UOM_CONV_FACTOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PACKAGE_SIZE",
+          "name": "PACKAGE_SIZE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PACKAGE_UOM",
+          "name": "PACKAGE_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MERCHANDISE_IND",
+          "name": "MERCHANDISE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "STORE_ORD_MULT",
+          "name": "STORE_ORD_MULT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "FORECAST_IND",
+          "name": "FORECAST_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORIGINAL_RETAIL",
+          "name": "ORIGINAL_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MFG_REC_RETAIL",
+          "name": "MFG_REC_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "RETAIL_LABEL_TYPE",
+          "name": "RETAIL_LABEL_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "RETAIL_LABEL_VALUE",
+          "name": "RETAIL_LABEL_VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "HANDLING_TEMP",
+          "name": "HANDLING_TEMP",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "HANDLING_SENSITIVITY",
+          "name": "HANDLING_SENSITIVITY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CATCH_WEIGHT_IND",
+          "name": "CATCH_WEIGHT_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "FIRST_RECEIVED",
+          "name": "FIRST_RECEIVED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_RECEIVED",
+          "name": "LAST_RECEIVED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "QTY_RECEIVED",
+          "name": "QTY_RECEIVED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WASTE_TYPE",
+          "name": "WASTE_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "WASTE_PCT",
+          "name": "WASTE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEFAULT_WASTE_PCT",
+          "name": "DEFAULT_WASTE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CONST_DIMEN_IND",
+          "name": "CONST_DIMEN_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SIMPLE_PACK_IND",
+          "name": "SIMPLE_PACK_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CONTAINS_INNER_IND",
+          "name": "CONTAINS_INNER_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SELLABLE_IND",
+          "name": "SELLABLE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORDERABLE_IND",
+          "name": "ORDERABLE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PACK_TYPE",
+          "name": "PACK_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ORDER_AS_TYPE",
+          "name": "ORDER_AS_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "COMMENTS",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ITEM_SERVICE_LEVEL",
+          "name": "ITEM_SERVICE_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "GIFT_WRAP_IND",
+          "name": "GIFT_WRAP_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SHIP_ALONE_IND",
+          "name": "SHIP_ALONE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_ID",
+          "name": "LAST_UPDATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "LAST_UPDATE_DATETIME",
+          "name": "LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CHECK_UDA_IND",
+          "name": "CHECK_UDA_IND",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_DEPS",
+      "sheetId": "3861deda-10b5-4630-bb19-9957fbf22998",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_DEPS.imp",
+        "uuid": "cbbfb83d-d4c2-41ec-a285-45154065551e"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DEPT",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEPT_NAME",
+          "name": "DEPT_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BUYER",
+          "name": "BUYER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MERCH",
+          "name": "MERCH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PROFIT_CALC_TYPE",
+          "name": "PROFIT_CALC_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "PURCHASE_TYPE",
+          "name": "PURCHASE_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "GROUP_NO",
+          "name": "GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BUD_INT",
+          "name": "BUD_INT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BUD_MKUP",
+          "name": "BUD_MKUP",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TOTAL_MARKET_AMT",
+          "name": "TOTAL_MARKET_AMT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MARKUP_CALC_TYPE",
+          "name": "MARKUP_CALC_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "OTB_CALC_TYPE",
+          "name": "OTB_CALC_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MAX_AVG_COUNTER",
+          "name": "MAX_AVG_COUNTER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "AVG_TOLERANCE_PCT",
+          "name": "AVG_TOLERANCE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DEPT_VAT_INCL_IND",
+          "name": "DEPT_VAT_INCL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_GROUPS",
+      "sheetId": "36e11a37-ab12-4c1f-9354-d8de38f059aa",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_GROUPS.imp",
+        "uuid": "1c8e3d41-3f8e-4bad-9f18-106acea67eb6"
+      },
+      "columnStyles": [
+        {
+          "columnId": "GROUP_NO",
+          "name": "GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "GROUP_NAME",
+          "name": "GROUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BUYER",
+          "name": "BUYER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MERCH",
+          "name": "MERCH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIVISION",
+          "name": "DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_DIVISION",
+      "sheetId": "51b73779-0aa0-41ad-9ef8-e02e7579000d",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_DIVISION.imp",
+        "uuid": "243ab597-2215-4549-8255-f368abd61561"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DIVISION",
+          "name": "DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "DIV_NAME",
+          "name": "DIV_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "BUYER",
+          "name": "BUYER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "MERCH",
+          "name": "MERCH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "TOTAL_MARKET_AMT",
+          "name": "TOTAL_MARKET_AMT",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "ITEM_MASTER_DEPS_GROUPS_DIVISION",
+      "sheetId": "0eafc0d3-449a-42b4-8783-39b7ffc26806",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": false,
+      "sheetDefinition": {
+        "joinCategory": "MULTI_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_ITEM_MASTER",
+            "sheet2": "IJ_RMS_DEPS",
+            "joinColumns1": [
+              "DEPT"
+            ],
+            "joinColumns2": [
+              "DEPT"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_DEPS",
+            "sheet2": "IJ_RMS_GROUPS",
+            "joinColumns1": [
+              "GROUP_NO"
+            ],
+            "joinColumns2": [
+              "GROUP_NO"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "IJ_RMS_GROUPS",
+            "sheet2": "IJ_RMS_DIVISION",
+            "joinColumns1": [
+              "DIVISION"
+            ],
+            "joinColumns2": [
+              "DIVISION"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "IJ_RMS_DIVISION": [
+            "DIVISION",
+            "DIV_NAME"
+          ],
+          "IJ_RMS_DEPS": [
+            "DEPT",
+            "DEPT_NAME"
+          ],
+          "IJ_RMS_GROUPS": [
+            "GROUP_NAME",
+            "GROUP_NO"
+          ],
+          "IJ_RMS_ITEM_MASTER": [
+            "CATCH_WEIGHT_IND",
+            "CHECK_UDA_IND",
+            "CLASS",
+            "COMMENTS",
+            "CONST_DIMEN_IND",
+            "CONTAINS_INNER_IND",
+            "COST_ZONE_GROUP_ID",
+            "CREATE_DATETIME",
+            "DEFAULT_WASTE_PCT",
+            "DEPT",
+            "DESC_UP",
+            "DIFF_1",
+            "DIFF_1_AGGREGATE_IND",
+            "DIFF_2",
+            "DIFF_2_AGGREGATE_IND",
+            "DIFF_3",
+            "DIFF_3_AGGREGATE_IND",
+            "DIFF_4",
+            "DIFF_4_AGGREGATE_IND",
+            "FIRST_RECEIVED",
+            "FORECAST_IND",
+            "FORMAT_ID",
+            "GIFT_WRAP_IND",
+            "HANDLING_SENSITIVITY",
+            "HANDLING_TEMP",
+            "ITEM",
+            "ITEM_AGGREGATE_IND",
+            "ITEM_DESC",
+            "ITEM_GRANDPARENT",
+            "ITEM_LEVEL",
+            "ITEM_NUMBER_TYPE",
+            "ITEM_PARENT",
+            "ITEM_SERVICE_LEVEL",
+            "LAST_RECEIVED",
+            "LAST_UPDATE_DATETIME",
+            "LAST_UPDATE_ID",
+            "MERCHANDISE_IND",
+            "MFG_REC_RETAIL",
+            "ORDERABLE_IND",
+            "ORDER_AS_TYPE",
+            "ORIGINAL_RETAIL",
+            "PACKAGE_SIZE",
+            "PACKAGE_UOM",
+            "PACK_IND",
+            "PACK_TYPE",
+            "PREFIX",
+            "PRIMARY_REF_ITEM_IND",
+            "QTY_RECEIVED",
+            "RETAIL_LABEL_TYPE",
+            "RETAIL_LABEL_VALUE",
+            "RETAIL_ZONE_GROUP_ID",
+            "SELLABLE_IND",
+            "SHIP_ALONE_IND",
+            "SHORT_DESC",
+            "SIMPLE_PACK_IND",
+            "STANDARD_UOM",
+            "STATUS",
+            "STORE_ORD_MULT",
+            "SUBCLASS",
+            "TRAN_LEVEL",
+            "UOM_CONV_FACTOR",
+            "WASTE_PCT",
+            "WASTE_TYPE"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "38b979cbb1ebb65fbe6e6abbae261ecf",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "897424d64eb0d652df89562ba849a9f4",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_NUMBER_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "60319052c1d55571f458ad3ba2204564",
+          "name": "IJ_RMS_ITEM_MASTER.FORMAT_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "596d07956789b63b5f1cc4c64faae639",
+          "name": "IJ_RMS_ITEM_MASTER.PREFIX",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "049328c48331e296c070730950cf647e",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_PARENT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8011548a881b9337568605669e60ed26",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_GRANDPARENT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0701b661b47d7aba28d7a9a09155d45e",
+          "name": "IJ_RMS_ITEM_MASTER.PACK_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f2f500734398c9154580912f171a7881",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "edd35b4a799217a39373fb6358bc688e",
+          "name": "IJ_RMS_ITEM_MASTER.TRAN_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1f3a02caeef7cefc0be1c13e64e39998",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "83b25741e689ce5134c31c041264e912",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_1",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bdea4ac85c0d22261f6dd38afe1c65dd",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_1_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "faa944ca771b3917b4c42c6985cec2c9",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_2",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6f401d8f529c142615821abf97581221",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_2_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "c0230a3f32b5baa2d5917cc38ba7989a",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_3",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2b732711a3e0565f1d7217cb2e682819",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_3_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1675ab2e920620dfe1c74165961d1853",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_4",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6a5495e63b7c1e3834089eb1baaa00a8",
+          "name": "IJ_RMS_ITEM_MASTER.DIFF_4_AGGREGATE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9bb47a4d4c81cf2b70581afef1189683",
+          "name": "IJ_RMS_ITEM_MASTER.DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8b412aa05ff732af9c9918b992705bfc",
+          "name": "IJ_RMS_ITEM_MASTER.CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3f04245e361c933c64135f626f917564",
+          "name": "IJ_RMS_ITEM_MASTER.SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ba47d53ebfd13ffd8d0f8b82e92e7955",
+          "name": "IJ_RMS_ITEM_MASTER.STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7020fe6026299cd415b6d4b4a3622e42",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "74eb1f4e10c6a1205e9d39d027b2daa6",
+          "name": "IJ_RMS_ITEM_MASTER.SHORT_DESC",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2576256f8b3d9d55bc2be93bfc202d57",
+          "name": "IJ_RMS_ITEM_MASTER.DESC_UP",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3b06774dcfe46ddde1b662d1c5020d2d",
+          "name": "IJ_RMS_ITEM_MASTER.PRIMARY_REF_ITEM_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3f11e88ff234fd101e66ec45a2090294",
+          "name": "IJ_RMS_ITEM_MASTER.RETAIL_ZONE_GROUP_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ad22598ae0a4d2a0ac46ac58802bb3ab",
+          "name": "IJ_RMS_ITEM_MASTER.COST_ZONE_GROUP_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e1d0c78556c6449de0c1e6cd9d7d5022",
+          "name": "IJ_RMS_ITEM_MASTER.STANDARD_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6d235f4d4fd05e24a24585e0d45fd248",
+          "name": "IJ_RMS_ITEM_MASTER.UOM_CONV_FACTOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e15e6fcda16a63e87f4042ff6a8d6d7d",
+          "name": "IJ_RMS_ITEM_MASTER.PACKAGE_SIZE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b7b5003a7f896b97a0c8d90cbb17839e",
+          "name": "IJ_RMS_ITEM_MASTER.PACKAGE_UOM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "df1145bee5ba4dc441533795d34b5407",
+          "name": "IJ_RMS_ITEM_MASTER.MERCHANDISE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b60255bdded0eaada911f5a50c9c2a70",
+          "name": "IJ_RMS_ITEM_MASTER.STORE_ORD_MULT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7a20873bbe2f8d2d0937cca54486b752",
+          "name": "IJ_RMS_ITEM_MASTER.FORECAST_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "74ca9e85f7f5989ef7fd8d26a8ac26ee",
+          "name": "IJ_RMS_ITEM_MASTER.ORIGINAL_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28801d62f383bfd0fe5eb6ac0d1658e1",
+          "name": "IJ_RMS_ITEM_MASTER.MFG_REC_RETAIL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fcb3ddf381bc2b6466f71beadba03225",
+          "name": "IJ_RMS_ITEM_MASTER.RETAIL_LABEL_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ba2c7a311e17d41f66badff7da0bdd23",
+          "name": "IJ_RMS_ITEM_MASTER.RETAIL_LABEL_VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4fba66c1fd760446f4e298a3c82d1f9b",
+          "name": "IJ_RMS_ITEM_MASTER.HANDLING_TEMP",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "504b36a6a1a2faa570158a1ee8cc98b4",
+          "name": "IJ_RMS_ITEM_MASTER.HANDLING_SENSITIVITY",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f448ef23b0b47993e5a9e1c29416fe4f",
+          "name": "IJ_RMS_ITEM_MASTER.CATCH_WEIGHT_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "34f35d721f5eaab9cae6c6726c9dddd1",
+          "name": "IJ_RMS_ITEM_MASTER.FIRST_RECEIVED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6cb6b345ffa0fe3b814bdfaf2e835e2c",
+          "name": "IJ_RMS_ITEM_MASTER.LAST_RECEIVED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6f48a78cfa6ba6c5836f9002672a8188",
+          "name": "IJ_RMS_ITEM_MASTER.QTY_RECEIVED",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "556c8a1530f25886f38e148b2f44cc8c",
+          "name": "IJ_RMS_ITEM_MASTER.WASTE_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7894f0889bff3e2fe9a0264720c24c58",
+          "name": "IJ_RMS_ITEM_MASTER.WASTE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15029811e98d91976e52e6d8cf6ff094",
+          "name": "IJ_RMS_ITEM_MASTER.DEFAULT_WASTE_PCT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d15a2fc55fb9d2c8118b9193daf21e06",
+          "name": "IJ_RMS_ITEM_MASTER.CONST_DIMEN_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7866740c93dc4436d82122b8fb385611",
+          "name": "IJ_RMS_ITEM_MASTER.SIMPLE_PACK_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "62d6d2b2b0f7b9d8d36a50e6727105a6",
+          "name": "IJ_RMS_ITEM_MASTER.CONTAINS_INNER_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6d4e24b5f664d8c69f85e1017c12f038",
+          "name": "IJ_RMS_ITEM_MASTER.SELLABLE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e3490bae697e7cf962eb5cb223252daf",
+          "name": "IJ_RMS_ITEM_MASTER.ORDERABLE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "969c1e4c1f7348568383af0e7886d331",
+          "name": "IJ_RMS_ITEM_MASTER.PACK_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e105b11681e7c9d104412cbee90f7659",
+          "name": "IJ_RMS_ITEM_MASTER.ORDER_AS_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "507e0851c537617e452ae8767f36d6ba",
+          "name": "IJ_RMS_ITEM_MASTER.COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "41b1635042d4077ecf3b032f40092d18",
+          "name": "IJ_RMS_ITEM_MASTER.ITEM_SERVICE_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4c96e3b90cbaf66ed990120a2a213c68",
+          "name": "IJ_RMS_ITEM_MASTER.GIFT_WRAP_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ae6da69c5b304db5368073421a826263",
+          "name": "IJ_RMS_ITEM_MASTER.SHIP_ALONE_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b561d01f9261bf704732b62319ca1037",
+          "name": "IJ_RMS_ITEM_MASTER.CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "34d5c23f25930d1a7efccab5ecc30c9a",
+          "name": "IJ_RMS_ITEM_MASTER.LAST_UPDATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "498bbcdcf3d0b982e3c52a0370708827",
+          "name": "IJ_RMS_ITEM_MASTER.LAST_UPDATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "45bc5f0f98febb13aadfdde157bebfb0",
+          "name": "IJ_RMS_ITEM_MASTER.CHECK_UDA_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fb6f7707d541156f101c5542fb5159f8",
+          "name": "IJ_RMS_DEPS.DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ee46797f47e31d354b68adcf76def1f1",
+          "name": "IJ_RMS_DEPS.DEPT_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fec245f69ee383a92c09840464472329",
+          "name": "IJ_RMS_GROUPS.GROUP_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20276cd840addee883a8ff121223924d",
+          "name": "IJ_RMS_GROUPS.GROUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dc0baa32c3be00dd9fd5b456de10c257",
+          "name": "IJ_RMS_DIVISION.DIVISION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "01699061d309da9b7e4d645f35b03d8d",
+          "name": "IJ_RMS_DIVISION.DIV_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_CLASS",
+      "sheetId": "0cb22122-8565-442a-bbba-f26a2a5a6b79",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_CLASS.imp",
+        "uuid": "a0103084-38a1-406f-a128-58698a2557cb"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DEPT",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS_NAME",
+          "name": "CLASS_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS_VAT_IND",
+          "name": "CLASS_VAT_IND",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "IJ_RMS_SUBCLASS",
+      "sheetId": "2fb058c2-e93c-4283-91c2-b849337c075e",
+      "sheetType": "das.internal.DataSourceSheetType",
+      "keep": false,
+      "datasource": {
+        "path": "/DataLake/OXXO/ImportJobs/RMS/Catalogos/IJ_RMS_SUBCLASS.imp",
+        "uuid": "13d6a357-c23b-4f79-b174-3faa80b142ff"
+      },
+      "columnStyles": [
+        {
+          "columnId": "DEPT",
+          "name": "DEPT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CLASS",
+          "name": "CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUBCLASS",
+          "name": "SUBCLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUB_NAME",
+          "name": "SUB_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_ID",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "CREATE_DATETIME",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "SUBCLASS_ID",
+          "name": "SUBCLASS_ID",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Estructura_Item_R",
+      "sheetId": "7a8458d3-2db8-41b9-98d0-595ae1b85716",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "joinCategory": "MULTI_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "INNER",
+            "sheet1": "ITEM_MASTER_DEPS_GROUPS_DIVISION",
+            "sheet2": "IJ_RMS_CLASS",
+            "joinColumns1": [
+              "IJ_RMS_ITEM_MASTER.DEPT",
+              "IJ_RMS_ITEM_MASTER.CLASS"
+            ],
+            "joinColumns2": [
+              "DEPT",
+              "CLASS"
+            ]
+          },
+          {
+            "joinType": "INNER",
+            "sheet1": "ITEM_MASTER_DEPS_GROUPS_DIVISION",
+            "sheet2": "IJ_RMS_SUBCLASS",
+            "joinColumns1": [
+              "IJ_RMS_ITEM_MASTER.DEPT",
+              "IJ_RMS_ITEM_MASTER.CLASS",
+              "IJ_RMS_ITEM_MASTER.SUBCLASS"
+            ],
+            "joinColumns2": [
+              "DEPT",
+              "CLASS",
+              "SUBCLASS"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "ITEM_MASTER_DEPS_GROUPS_DIVISION": [
+            "IJ_RMS_DEPS.DEPT",
+            "IJ_RMS_DEPS.DEPT_NAME",
+            "IJ_RMS_DIVISION.DIVISION",
+            "IJ_RMS_DIVISION.DIV_NAME",
+            "IJ_RMS_GROUPS.GROUP_NAME",
+            "IJ_RMS_GROUPS.GROUP_NO",
+            "IJ_RMS_ITEM_MASTER.ITEM",
+            "IJ_RMS_ITEM_MASTER.ITEM_DESC"
+          ],
+          "IJ_RMS_CLASS": [
+            "CLASS",
+            "CLASS_NAME"
+          ],
+          "IJ_RMS_SUBCLASS": [
+            "SUBCLASS",
+            "SUB_NAME"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "adc3841a3ac864cc3db1a5f3bda59688",
+          "name": "ARTICULO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8d927fe21ffdff58d1aba4452e5cccd9",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5a11c4ffcf9817d8f504451be34f7b6e",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a3fa6ea35fdc3156544d294adde11ceb",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "66536c68ad61a75adaae774962d3efff",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f2ca1e4b6bb3e71a2da867bc45dba36b",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "407d579b7cddf3fdf780b0f2a5eb757e",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "937eb7f431b6d8b04d2d7f8d5718ccaf",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "989d0efc5900e1b2a5cad7aa4cb7a1ae",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f8486c67c63da2d42f137ce1b420e354",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "47cae4b3240b1dcfad398b60b4472a9a",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18f76dda05c2da4b8e3e04be60ceea4f",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
