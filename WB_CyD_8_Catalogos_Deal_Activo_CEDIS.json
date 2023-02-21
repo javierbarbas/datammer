@@ -1,0 +1,1638 @@
+{
+  "version": "10.1.15",
+  "className": "datameer.dap.common.entity.WorkbookConfigurationImpl",
+  "file": {
+    "uuid": "d3c67f17-ddcf-4198-b39a-49d0149ec076",
+    "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_8_Catalogos_Deal_Activo_CEDIS.wbk",
+    "description": "",
+    "name": "WB_CyD_8_Catalogos_Deal_Activo_CEDIS"
+  },
+  "scheduleEnabled": true,
+  "pullType": "MANUALLY",
+  "minKeepCount": 1,
+  "properties": {},
+  "notificationAddresses": "",
+  "notificationSuccessAddresses": "",
+  "sheets": [
+    {
+      "name": "Todo_Deals_Activos",
+      "sheetId": "1f2ee28d-b19a-4850-a2cc-339c6ef8fc81",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Todo_Deals_Activos",
+        "sheetId": "586fc554-032e-403d-a5c2-07fa9ed234c9",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_7_Todo_Deals_Activos.wbk",
+          "uuid": "8ae79c02-505a-4f1c-a783-e680fccb9183"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "20",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "21",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "22",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "23",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "26",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "27",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "28",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29",
+          "name": "APPROVAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "30",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "31",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Fem_Costos_Estructura",
+      "sheetId": "de101555-3670-47ca-80ae-aee97e520cb5",
+      "sheetType": "das.internal.ExternalWorkbookSheetType",
+      "keep": false,
+      "referencedSheet": {
+        "name": "Fem_Costos_Estructura",
+        "sheetId": "d1a13dec-7692-438f-8fb1-6fbb6722bd9b",
+        "workbook": {
+          "path": "/Dev/CyD v1/CyD v1 original/WB_CyD_6_Fem_Costos_Estructura.wbk",
+          "uuid": "7ae07691-936e-48b8-9989-b69f836ee1b0"
+        }
+      },
+      "columnStyles": [
+        {
+          "columnId": "d0d221788eec4e218bd490563026698f",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "426872ad136ed4109fa2037827109885",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "54454b7a46906feeaac58cd9921e5bd7",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "47f9b04970fd5830f9aca8a69550b059",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "25b8e4806e7c042f9ae266c64f6404eb",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "59bab9a02f1f90b87bea9d9efaa5b3de",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "644dc49e33ff4a09fb80f9daa531e14a",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2f5d86eebd6ba6cba46c96f06accbc42",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bed31cccf7ed9f7bee2f65ad99d0a1d8",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6a3123b9f8a404a49180707147f0b2a4",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1a72cff773dbd516824016502eefe636",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e417f9ab7cc0ad0f98963d073804d71b",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "162fc35c6c8dadd4a286ffd5d04a9138",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "632dd21018a6ab37836730ec08c25634",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e1dab2080a19ea48cc1dbd76e6a8f2a3",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "86b1ef9ba92f0262502363a03582e65b",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6a1da38cc61a97ffd953bc0d3f1328b4",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dd38401bf965c7b86df76fb7cda46d15",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f9ebb8dcb3b7bc7ddede8d241d390b96",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "09d9ae9867818d3d52c6ad2b4acd4edd",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Fem_Costos_Estructura_Plaza",
+      "sheetId": "f764718e-8542-43fb-9ce8-65c8368b3f6e",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "ALCANCE",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "PLAZA",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "ITEM",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Fem_Costos_Estructura!ITEM"
+        },
+        {
+          "columnName": "ALCANCE",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Fem_Costos_Estructura!ALCANCE"
+        },
+        {
+          "columnName": "CR_PLAZA",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Fem_Costos_Estructura!CR_PLAZA"
+        },
+        {
+          "columnName": "WH_AREA",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Fem_Costos_Estructura!WH_AREA"
+        },
+        {
+          "columnName": "WH_NAME",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#Fem_Costos_Estructura!WH_NAME"
+        },
+        {
+          "columnName": "PROVEEDOR",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#Fem_Costos_Estructura!PROVEEDOR"
+        },
+        {
+          "columnName": "COSTO",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#Fem_Costos_Estructura!COSTO"
+        },
+        {
+          "columnName": "TOTAL_TIENDAS",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#Fem_Costos_Estructura!TOTAL_TIENDAS"
+        },
+        {
+          "columnName": "PHYSICAL_WH",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#Fem_Costos_Estructura!PHYSICAL_WH"
+        },
+        {
+          "columnName": "DESCRIPCION",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003d#Fem_Costos_Estructura!DESCRIPCION"
+        },
+        {
+          "columnName": "SUBCAT",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBCAT"
+        },
+        {
+          "columnName": "SUBCATEGORIA",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBCATEGORIA"
+        },
+        {
+          "columnName": "CAT",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003d#Fem_Costos_Estructura!CAT"
+        },
+        {
+          "columnName": "CATEGORIA",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003d#Fem_Costos_Estructura!CATEGORIA"
+        },
+        {
+          "columnName": "SUPER",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUPER"
+        },
+        {
+          "columnName": "SUPERGRUPO",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUPERGRUPO"
+        },
+        {
+          "columnName": "SEG",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SEG"
+        },
+        {
+          "columnName": "SEGMENTO",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SEGMENTO"
+        },
+        {
+          "columnName": "SUBSEG",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBSEG"
+        },
+        {
+          "columnName": "SUBSEGMENTO",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBSEGMENTO"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Catalogos_Deal_Activo",
+      "sheetId": "d033a3b7-7811-4846-ae37-280ab8182f08",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "OUTER_RIGHT",
+            "sheet1": "Todo_Deals_Activos",
+            "sheet2": "Fem_Costos_Estructura_Plaza",
+            "joinColumns1": [
+              "AREA",
+              "SUPPLIER",
+              "ITEM"
+            ],
+            "joinColumns2": [
+              "WH_AREA",
+              "PROVEEDOR",
+              "ITEM"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "Todo_Deals_Activos": [
+            "DEAL_ID",
+            "EXT_REF_NO",
+            "ACTIVE_DATE",
+            "TYPE",
+            "STATUS",
+            "DEAL_DETAIL_ID",
+            "SUPPLIER",
+            "SUP_NAME",
+            "FEM_RFC_CODE",
+            "DEAL_COMP_TYPE",
+            "BILLING_TYPE",
+            "BILL_BACK_PERIOD",
+            "COLLECT_START_DATE",
+            "COLLECT_END_DATE",
+            "DEAL_CLASS",
+            "COST_APPL_IND",
+            "VALUE",
+            "PORCENTAJE",
+            "COMMENTS",
+            "ORG_LEVEL",
+            "CHAIN",
+            "AREA",
+            "REGION",
+            "DISTRICT",
+            "LOCATION",
+            "EXCEPCION",
+            "CREATE_ID",
+            "CREATE_DATETIME",
+            "CHAIN_NAME",
+            "CR_PLAZA"
+          ],
+          "Fem_Costos_Estructura_Plaza": [
+            "ITEM",
+            "ALCANCE",
+            "CR_PLAZA",
+            "WH_AREA",
+            "WH_NAME",
+            "PROVEEDOR",
+            "COSTO",
+            "TOTAL_TIENDAS",
+            "DESCRIPCION",
+            "SUBCAT",
+            "SUBCATEGORIA",
+            "CAT",
+            "CATEGORIA",
+            "SUPER",
+            "SUPERGRUPO",
+            "SEG",
+            "SEGMENTO",
+            "SUBSEG",
+            "SUBSEGMENTO"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "63e26d4d783ef7fe69741c65cd867b4f",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4e1e18d1f827a97bb0a4cea9b0f51862",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24de4f5968cd9b19aca0b9c4d1f1ba3e",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14203b3a9344381fd988889503585e31",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3e38a5445732577b6d06fbc6ff2dc1f5",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9fa7eacb3bd0e3476a4ca61002e5209e",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ef04077c1fa9bfa7b00d8b1e8e82fe71",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "568fe5b97a4c56bd0cbe452a1802493e",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "61d06405c02945b56870a9385d6f7243",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d0de49e0a6b8e7aa9eeb8f2d1d52028c",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f645b571e44f65059ad5aa96ac48808a",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "afa1680d8a9f3431b224d5fa487174b0",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "57999bb5d7303b59479fe1730c88631b",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b88146a579792cf80b8db890d941f853",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "467a3c4d1fc0d61443229ab5b631e8de",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0fca768719ebae8f5bddeda15b57ca4f",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f59e882e3f8423290e268823477e2f0c",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bc2f698ee8d307d93fd63c33bdbb26e6",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "63739b656fa820d75ec031b1771386b5",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "92e6773cfba6adb0af7c4ee020ca6bf5",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "896b38be5a5603835ade24ff450e567a",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "cba69431d6bbf498c398323c81a19ea6",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7368b73341c64569289ce2140b72c380",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8b7db70880a7cd37b660bfb4a43c4911",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7d3ce0dd594fe4d55fb03909cf259f77",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "945e920e121bc4d6a9bcdd0911f0fb22",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1f41942c3511af79afad4a8b082d2c08",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "80a20e3bbcccfdd0fa4edd727f4461ff",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "507be6f2f8f80468d3b62c3490fde76b",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4eb73f1b340c9b9c514a9bab97ac8940",
+          "name": "PLAZA_DEAL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "879021c8a68ea5b912504fab62eb01bd",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f923b9f188a908f9e4e8c4295bbe6a9a",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d6b89ac864d49c13cbd0b9f7b2b5b4bd",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "29a49a1008b6cf12ce14d618fc9eafdc",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9a82894d8cf5a11879106c41af171f39",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e1d78d3ad15cd8963879739e8bcd3a30",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "926e592935d8b6016f6b494641fca3ce",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f8f32d95cd20202c1bd5346642e023fb",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9367afe121cde8e64c1e5c20315a0fa2",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a9fc8797dba367ff64ab7c1b5693eb80",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d0216ede58889f0ae3ba67774751c268",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "cd9e9b90c043581f621f76d1328ef996",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a96622655e974ecc4ea5ea90ba54749e",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "311b9eb08497b1823a6cb5172f7b1610",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "84b5d9575c162aac54d02f26690fa330",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6c6db8c1152ae298d45a3c65161e9543",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ac2fbc1b82bbf33c569c2286b552a192",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5436eab297d835ecab74da7d094e4dd1",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "81f683fb0c0e694e6ae1a9b913df4e9b",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Fem_Costos_Estructura_CEDIS",
+      "sheetId": "311764cb-2061-49a4-be50-127523d44371",
+      "sheetType": "das.internal.FormulaSheetType",
+      "keep": false,
+      "connector": "AND",
+      "filterArguments": [
+        {
+          "column": "ALCANCE",
+          "filterExpression": "TEXT_EQUALS",
+          "value": "CEDIS",
+          "type": "CONSTANT"
+        }
+      ],
+      "formulas": [
+        {
+          "columnName": "ITEM",
+          "columnId": "0",
+          "columnIndex": 0,
+          "formulaString": "\u003d#Fem_Costos_Estructura!ITEM"
+        },
+        {
+          "columnName": "ALCANCE",
+          "columnId": "1",
+          "columnIndex": 1,
+          "formulaString": "\u003d#Fem_Costos_Estructura!ALCANCE"
+        },
+        {
+          "columnName": "CR_PLAZA",
+          "columnId": "2",
+          "columnIndex": 2,
+          "formulaString": "\u003d#Fem_Costos_Estructura!CR_PLAZA"
+        },
+        {
+          "columnName": "WH_AREA",
+          "columnId": "3",
+          "columnIndex": 3,
+          "formulaString": "\u003d#Fem_Costos_Estructura!WH_AREA"
+        },
+        {
+          "columnName": "WH_NAME",
+          "columnId": "4",
+          "columnIndex": 4,
+          "formulaString": "\u003d#Fem_Costos_Estructura!WH_NAME"
+        },
+        {
+          "columnName": "PROVEEDOR",
+          "columnId": "5",
+          "columnIndex": 5,
+          "formulaString": "\u003d#Fem_Costos_Estructura!PROVEEDOR"
+        },
+        {
+          "columnName": "COSTO",
+          "columnId": "6",
+          "columnIndex": 6,
+          "formulaString": "\u003d#Fem_Costos_Estructura!COSTO"
+        },
+        {
+          "columnName": "TOTAL_TIENDAS",
+          "columnId": "7",
+          "columnIndex": 7,
+          "formulaString": "\u003d#Fem_Costos_Estructura!TOTAL_TIENDAS"
+        },
+        {
+          "columnName": "PHYSICAL_WH",
+          "columnId": "8",
+          "columnIndex": 8,
+          "formulaString": "\u003d#Fem_Costos_Estructura!PHYSICAL_WH"
+        },
+        {
+          "columnName": "DESCRIPCION",
+          "columnId": "9",
+          "columnIndex": 9,
+          "formulaString": "\u003d#Fem_Costos_Estructura!DESCRIPCION"
+        },
+        {
+          "columnName": "SUBCAT",
+          "columnId": "10",
+          "columnIndex": 10,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBCAT"
+        },
+        {
+          "columnName": "SUBCATEGORIA",
+          "columnId": "11",
+          "columnIndex": 11,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBCATEGORIA"
+        },
+        {
+          "columnName": "CAT",
+          "columnId": "12",
+          "columnIndex": 12,
+          "formulaString": "\u003d#Fem_Costos_Estructura!CAT"
+        },
+        {
+          "columnName": "CATEGORIA",
+          "columnId": "13",
+          "columnIndex": 13,
+          "formulaString": "\u003d#Fem_Costos_Estructura!CATEGORIA"
+        },
+        {
+          "columnName": "SUPER",
+          "columnId": "14",
+          "columnIndex": 14,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUPER"
+        },
+        {
+          "columnName": "SUPERGRUPO",
+          "columnId": "15",
+          "columnIndex": 15,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUPERGRUPO"
+        },
+        {
+          "columnName": "SEG",
+          "columnId": "16",
+          "columnIndex": 16,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SEG"
+        },
+        {
+          "columnName": "SEGMENTO",
+          "columnId": "17",
+          "columnIndex": 17,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SEGMENTO"
+        },
+        {
+          "columnName": "SUBSEG",
+          "columnId": "18",
+          "columnIndex": 18,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBSEG"
+        },
+        {
+          "columnName": "SUBSEGMENTO",
+          "columnId": "19",
+          "columnIndex": 19,
+          "formulaString": "\u003d#Fem_Costos_Estructura!SUBSEGMENTO"
+        }
+      ],
+      "columnStyles": [
+        {
+          "columnId": "0",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "5",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "6",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8",
+          "name": "PHYSICAL_WH",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "10",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "11",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "12",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "13",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "15",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "16",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "17",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "18",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "19",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    },
+    {
+      "name": "Catalogos_Deal_Activo_CEDIS",
+      "sheetId": "7eeeee09-d8fe-480a-9789-9fbfcb5108a7",
+      "sheetType": "das.internal.JoinedSheetType",
+      "keep": true,
+      "sheetDefinition": {
+        "joinCategory": "TWO_MEMBER_JOIN",
+        "joinPairs": [
+          {
+            "joinType": "OUTER_RIGHT",
+            "sheet1": "Todo_Deals_Activos",
+            "sheet2": "Fem_Costos_Estructura_CEDIS",
+            "joinColumns1": [
+              "LOCATION",
+              "SUPPLIER",
+              "ITEM"
+            ],
+            "joinColumns2": [
+              "PHYSICAL_WH",
+              "PROVEEDOR",
+              "ITEM"
+            ]
+          }
+        ],
+        "sheetToIncludeColumns": {
+          "Todo_Deals_Activos": [
+            "DEAL_ID",
+            "EXT_REF_NO",
+            "ACTIVE_DATE",
+            "TYPE",
+            "STATUS",
+            "DEAL_DETAIL_ID",
+            "SUPPLIER",
+            "SUP_NAME",
+            "FEM_RFC_CODE",
+            "DEAL_COMP_TYPE",
+            "BILLING_TYPE",
+            "BILL_BACK_PERIOD",
+            "COLLECT_START_DATE",
+            "COLLECT_END_DATE",
+            "DEAL_CLASS",
+            "COST_APPL_IND",
+            "VALUE",
+            "PORCENTAJE",
+            "COMMENTS",
+            "ORG_LEVEL",
+            "CHAIN",
+            "AREA",
+            "REGION",
+            "DISTRICT",
+            "LOCATION",
+            "EXCEPCION",
+            "CREATE_ID",
+            "CREATE_DATETIME",
+            "CHAIN_NAME",
+            "CR_PLAZA"
+          ],
+          "Fem_Costos_Estructura_CEDIS": [
+            "ITEM",
+            "ALCANCE",
+            "CR_PLAZA",
+            "WH_AREA",
+            "WH_NAME",
+            "PROVEEDOR",
+            "COSTO",
+            "TOTAL_TIENDAS",
+            "DESCRIPCION",
+            "SUBCAT",
+            "SUBCATEGORIA",
+            "CAT",
+            "CATEGORIA",
+            "SUPER",
+            "SUPERGRUPO",
+            "SEG",
+            "SEGMENTO",
+            "SUBSEG",
+            "SUBSEGMENTO"
+          ]
+        },
+        "displayJoinColumnsUpfront": false
+      },
+      "columnStyles": [
+        {
+          "columnId": "63e26d4d783ef7fe69741c65cd867b4f",
+          "name": "DEAL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4e1e18d1f827a97bb0a4cea9b0f51862",
+          "name": "EXT_REF_NO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "24de4f5968cd9b19aca0b9c4d1f1ba3e",
+          "name": "ACTIVE_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14203b3a9344381fd988889503585e31",
+          "name": "TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "3e38a5445732577b6d06fbc6ff2dc1f5",
+          "name": "STATUS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "9fa7eacb3bd0e3476a4ca61002e5209e",
+          "name": "DEAL_DETAIL_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "ef04077c1fa9bfa7b00d8b1e8e82fe71",
+          "name": "SUPPLIER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "568fe5b97a4c56bd0cbe452a1802493e",
+          "name": "SUP_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "61d06405c02945b56870a9385d6f7243",
+          "name": "FEM_RFC_CODE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d0de49e0a6b8e7aa9eeb8f2d1d52028c",
+          "name": "DEAL_COMP_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f645b571e44f65059ad5aa96ac48808a",
+          "name": "BILLING_TYPE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "afa1680d8a9f3431b224d5fa487174b0",
+          "name": "BILL_BACK_PERIOD",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "57999bb5d7303b59479fe1730c88631b",
+          "name": "COLLECT_START_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b88146a579792cf80b8db890d941f853",
+          "name": "COLLECT_END_DATE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "467a3c4d1fc0d61443229ab5b631e8de",
+          "name": "DEAL_CLASS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "0fca768719ebae8f5bddeda15b57ca4f",
+          "name": "COST_APPL_IND",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f59e882e3f8423290e268823477e2f0c",
+          "name": "VALUE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "bc2f698ee8d307d93fd63c33bdbb26e6",
+          "name": "PORCENTAJE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "63739b656fa820d75ec031b1771386b5",
+          "name": "COMMENTS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "92e6773cfba6adb0af7c4ee020ca6bf5",
+          "name": "ORG_LEVEL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "896b38be5a5603835ade24ff450e567a",
+          "name": "CHAIN",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "cba69431d6bbf498c398323c81a19ea6",
+          "name": "AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7368b73341c64569289ce2140b72c380",
+          "name": "REGION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "8b7db70880a7cd37b660bfb4a43c4911",
+          "name": "DISTRICT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7d3ce0dd594fe4d55fb03909cf259f77",
+          "name": "LOCATION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "945e920e121bc4d6a9bcdd0911f0fb22",
+          "name": "EXCEPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "1f41942c3511af79afad4a8b082d2c08",
+          "name": "CREATE_ID",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "80a20e3bbcccfdd0fa4edd727f4461ff",
+          "name": "CREATE_DATETIME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "507be6f2f8f80468d3b62c3490fde76b",
+          "name": "CHAIN_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "4eb73f1b340c9b9c514a9bab97ac8940",
+          "name": "PLAZA_DEAL",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "75a9b8daa0e48aaf72c4e71aeab8d287",
+          "name": "ITEM",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "14ca72f7d76ec6b47da0b68394e3772c",
+          "name": "ALCANCE",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "881bcc5dd0b4946ec473a37dfc0b5c2e",
+          "name": "CR_PLAZA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "e5f4a28bc35514e5242aed7085dee619",
+          "name": "WH_AREA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "fed461a1e7f91c148f9b96aaccb6863a",
+          "name": "WH_NAME",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "f4323363d5f7cc22118d7525daf3ee79",
+          "name": "PROVEEDOR",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "508bc5a4486c3b5e11da793cd9b9a30d",
+          "name": "COSTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "561a15a28dc6a28ecb09c2f8aa5f8f2a",
+          "name": "TOTAL_TIENDAS",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "7a85d06d28484a1c090333bfc7589d0a",
+          "name": "DESCRIPCION",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "116cbcbe8959b4c9e98180b52a5b1ec4",
+          "name": "SUBCAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "685ecb39df6e910341f86765d697d80b",
+          "name": "SUBCATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "d89ff0a49dbeb6d81a0a5f3fe3619ada",
+          "name": "CAT",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "a0122921d66c668a3ece6f1770292cdc",
+          "name": "CATEGORIA",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "80544d74fdbb829a397f5c96c0783a22",
+          "name": "SUPER",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dff5e70a67d48e5c72231e194d0c2137",
+          "name": "SUPERGRUPO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2e834bcb175785e8a4c070154820a59e",
+          "name": "SEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "2795631589a079a69a36507e81ab7629",
+          "name": "SEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "dd3fd00b00fd422d1d3bc6042a6caf31",
+          "name": "SUBSEG",
+          "width": 100,
+          "thousandSeparator": true
+        },
+        {
+          "columnId": "b1a4042e1083cf2c6103dc473de45ecb",
+          "name": "SUBSEGMENTO",
+          "width": 100,
+          "thousandSeparator": true
+        }
+      ]
+    }
+  ],
+  "advancedSchedulingInUse": false,
+  "errorHandlingMode": "IGNORE"
+}
